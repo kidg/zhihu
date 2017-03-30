@@ -1,0 +1,1988 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="001d5817ff4c75d0">
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge7:ge7_3,ge3:ge3_10,ge2:ge2_1,new_more:old,Enable_Live_FeaturedDetail:newVersion">
+
+<title>首页 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/">
+<meta id="znonce" name="znonce" content="af8a77ffaa804e629da845a3dda10403">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.6bd8c08e.css">
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.14757a4a.js"></script>
+
+<style>
+.zm-item-answer-author-info a.collapse {margin-top: 0}
+</style>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+<div class="top-nav-profile">
+<a href="/people/ghq-71" class="zu-top-nav-userinfo ">
+<span class="name">ghq</span>
+<img class="Avatar" src="https://pic1.zhimg.com/da8e974dc_s.jpg" srcset="https://pic1.zhimg.com/da8e974dc_xs.jpg 2x" alt="ghq" />
+<span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+<ul class="top-nav-dropdown" id="top-nav-profile-dropdown">
+<li>
+<a href="/people/ghq-71">
+<i class="zg-icon zg-icon-dd-home"></i>我的主页
+</a>
+</li>
+
+<li>
+<a href="/inbox">
+<i class="zg-icon zg-icon-dd-pm"></i>私信
+<span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+</li>
+<li>
+<a href="/settings">
+<i class="zg-icon zg-icon-dd-settings"></i>设置
+</a>
+</li>
+<li>
+<a href="/logout">
+<i class="zg-icon zg-icon-dd-logout"></i>退出
+</a>
+</li>
+</ul>
+
+</div>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容...">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li current" id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+<li class="top-nav-noti zu-top-nav-li ">
+<a class="zu-top-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息</a>
+</li>
+
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+<div class="HomeEntry" data-za-module="HomeEntry">
+<div class="HomeEntry-avatar">
+<img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/da8e974dc_xs.jpg" srcset="https://pic1.zhimg.com/da8e974dc_l.jpg 2x" alt="ghq" />
+</div>
+<div class="HomeEntry-box">
+<span class="HomeEntry-boxArrow"></span>
+<ul class="HomeEntry-list">
+<li class="HomeEntry-item">
+<a href="#" class="HomeEntry-ask js-HomeEntry-ask">
+<i class="sprite-home-question-off"></i>
+提问
+</a>
+</li>
+<li class="HomeEntry-item">
+<a href="/question" target="_blank" class="HomeEntry-answer js-HomeEntry-answer">
+<i class="sprite-home-answer-off"></i>
+回答
+</a>
+</li>
+<li class="HomeEntry-item">
+<a href="//zhuanlan.zhihu.com/write" target="_blank" class="HomeEntry-post js-HomeEntry-post">
+<i class="sprite-home-post-off"></i>
+写文章
+</a>
+</li>
+</ul>
+<div class="HomeEntry-draft">
+<a href="/draft" target="_blank">
+草稿 
+</a>
+</div>
+</div>
+</div>
+
+<div class="zg-section" id="zh-home-list-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+最新动态 <input type="hidden" id="is-topstory">
+<span class="zg-right zm-noti-cleaner-setting" style="list-style:none"><a href="/settings/filter" class="zg-link-gray-normal"><i class="zg-icon zg-icon-settings"></i>设置</a></span>
+</div>
+<div class="zu-main-feed-con" data-feedtype="topstory" id="zh-question-list"
+data-widget="navigable"
+data-navigable-options="{&quot;items&quot;:&quot;&gt; .zh-general-list .feed-content&quot;,&quot;offsetTop&quot;:-82}"
+>
+<a href="javascript:;" class="zu-main-feed-fresh-button" id="zh-main-feed-fresh-button" style="display:none"></a>
+<div id="js-home-feed-list" class="zh-general-list topstory clearfix" data-init="{&quot;params&quot;: {}, &quot;nodename&quot;: &quot;TopStory2FeedList&quot;}">
+
+
+<div class="feed-item folding feed-item-hook feed-item-0
+ 
+"
+feed-item-p data-type="p"
+id="feed-0"
+>
+<meta itemprop="ZReactor" data-id="2589150" data-meta="{&quot;source_type&quot;: &quot;member_create_article&quot;, &quot;voteups&quot;: 68, &quot;comments&quot;: 16, &quot;source&quot;: [[&quot;member&quot;, &quot;20a5c8a47e345b7dcceebe6227936aec&quot;], [&quot;column&quot;, 26294]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="Python爱好者"
+data-hovercard="p$t$python-kai-fa-zhe"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/python-kai-fa-zhe">
+<img src="https://pic2.zhimg.com/v2-989f018b8553269eafc770ec1b464259_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+<a data-hovercard="p$t$python-kai-fa-zhe" href="https://www.zhihu.com/people/python-kai-fa-zhe" target="_blank" class="zg-link author-link" title="Python爱好者"
+>Python爱好者</a> 在 <a class="column_link" href="https://zhuanlan.zhihu.com/pythoncoder" data-hovercard="c$t$pythoncoder" target="_blank" data-za-element-name="Title">Python开发者社区</a> 中发布了文章
+
+<span class="zg-bull">•</span>
+<span class="time" data-timestamp="1490518242000">4 天前</span>
+
+</div>
+<div class="feed-content">
+<meta itemprop="post-id" content="2589150">
+<meta itemprop="post-url-token" content="26005733">
+<h2 class="feed-title"><a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/26005733" data-za-element-name="Title">百度贴吧“高考吧”爬虫分析（Python版）</a></h2>
+
+<div class="entry-body post-body js-collapse-body">
+
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="#" data-bind-votecount>68</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">68</span>
+<span class="label sr-only">赞</span>
+</button>
+</div>
+
+
+<div class="author-info summary-wrapper">
+<span class="author-link-line">
+<a href="/people/python-kai-fa-zhe" data-hovercard="p$t$python-kai-fa-zhe" class="name author-link"
+>Python爱好者</a></span><span title="（公众号：Python爱好者社区）人生苦短，我用Python！" class="bio">
+（公众号：Python爱好者社区）人生苦短，…
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="68">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">68</span>&nbsp;人赞</a></span>
+
+
+</div>
+<div class="post-content" data-author-name="Python爱好者" data-entry-url="https://zhuanlan.zhihu.com/p/26005733">
+<textarea class="content hidden">&lt;img src=&quot;https://pic1.zhimg.com/v2-c24f1c4aab8a833bf52072b90f1574d0_b.jpg&quot; data-rawwidth=&quot;646&quot; data-rawheight=&quot;803&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;646&quot; data-original=&quot;https://pic1.zhimg.com/v2-c24f1c4aab8a833bf52072b90f1574d0_r.jpg&quot;&gt;&lt;h2&gt;&lt;strong&gt;2017年高考倒计时：72天！&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;今天推文的作者是我们Easycharts新的小伙伴周文闻，对爬虫研究较多，目前对百度贴吧的爬取有些心得，欢迎感兴趣的同学一起交流，文末有联系方式哦！&lt;/p&gt;&lt;p&gt;所以，没错，今天我们就从爬虫的结果来分析下百度贴吧——高考吧！&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-442da214fe9efc877740b508e34f0bb4_b.png&quot; data-rawwidth=&quot;598&quot; data-rawheight=&quot;343&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;598&quot; data-original=&quot;https://pic1.zhimg.com/v2-442da214fe9efc877740b508e34f0bb4_r.png&quot;&gt;&lt;p&gt;&lt;strong&gt;爬虫过程概述&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;高考吧是一个大型贴吧，关注人数2406811，帖子总数200多万，花了5天时间爬取所有帖子的链接、标题、回复数、发帖时间，发帖用户和用户等级，总计2016964条记录。此数据为2017年3月中旬的数据，与现在的数据有差异。&lt;/p&gt;&lt;p&gt;对爬取的过程稍作说明：&lt;/p&gt;&lt;p&gt;（1）爬取链接数：2417386&lt;/p&gt;&lt;p&gt;（2）去重后的链接数：2026735&lt;/p&gt;&lt;p&gt;（3）爬取成功的链接数：2016964&lt;/p&gt;&lt;p&gt;（4）被隐藏或删除的链接数：9771（如&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//tieba.baidu.com/p/4858811200&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;贴吧404&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;）&lt;/p&gt;&lt;p&gt;（5）爬取所用的程序语言：Python&lt;/p&gt;&lt;p&gt;（6）数据处理：Python+PowerBI+Excel（注：Python+Excel+PowerPivot运行缓慢，经常无响应，故弃之）&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;贴吧概况&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;高考吧的发帖人数占比与中考吧相同，0回复率更高一点，高考吧的友好程度更低。经统计，发帖用户中会员人数占发帖总人数的0.02%，大概学生更愿意花钱买书吧。。。（我也爬取了中考吧所有的帖子，所以有时会与高考吧进行对比）&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-4dc70047d33c0926554883d78d992b03_b.png&quot; data-rawwidth=&quot;548&quot; data-rawheight=&quot;507&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;548&quot; data-original=&quot;https://pic4.zhimg.com/v2-4dc70047d33c0926554883d78d992b03_r.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-5c825286eeca4ef6ada7656ae9200ee2_b.png&quot; data-rawwidth=&quot;644&quot; data-rawheight=&quot;750&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;644&quot; data-original=&quot;https://pic3.zhimg.com/v2-5c825286eeca4ef6ada7656ae9200ee2_r.png&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;年发帖量&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;2013年发帖量最高，2016年发帖量环比下降超过50%，这一点和中考吧极其相似，高考吧发帖量近几年下降明显，但是发帖量的数量级依然可以让人侧目，不是小贴吧能够相提并论的。&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-a2e072c478d83fc3f7713d50775a53e4_b.png&quot; data-rawwidth=&quot;666&quot; data-rawheight=&quot;603&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;666&quot; data-original=&quot;https://pic1.zhimg.com/v2-a2e072c478d83fc3f7713d50775a53e4_r.png&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;月发帖量&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;6月份高考，发帖量也最高&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-99408b5f4a053ce632bc886d2279ae02_b.png&quot; data-rawwidth=&quot;653&quot; data-rawheight=&quot;562&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;653&quot; data-original=&quot;https://pic3.zhimg.com/v2-99408b5f4a053ce632bc886d2279ae02_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;时发帖量&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;晚上10点发帖量最高，好像熬夜特征挺明显的，在下面会对熬夜这一问题做深入分析。&lt;/p&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-45ec6aad4236c217acb2802d5cb0e155_b.png&quot; data-rawwidth=&quot;663&quot; data-rawheight=&quot;738&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;663&quot; data-original=&quot;https://pic2.zhimg.com/v2-45ec6aad4236c217acb2802d5cb0e155_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;周发帖量&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;周末发帖量显著增加，不是很明白这一现象，高中应该没有周末吧，但是与高考吧的同学交流，并不是所有的学校都没有周末的。&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-52989d9d170aab1e0dc718ce7df676a2_b.png&quot; data-rawwidth=&quot;663&quot; data-rawheight=&quot;531&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;663&quot; data-original=&quot;https://pic3.zhimg.com/v2-52989d9d170aab1e0dc718ce7df676a2_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;用户等级分布&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;低等级用户占比较小，用户对贴吧依赖度较高‘’&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-dbb945f916188b1202b7f83229b3c877_b.png&quot; data-rawwidth=&quot;606&quot; data-rawheight=&quot;623&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;606&quot; data-original=&quot;https://pic4.zhimg.com/v2-dbb945f916188b1202b7f83229b3c877_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;十大热帖&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;热帖反映了用户最关心的问题，有什么比看热帖更带劲的事情吗？&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-01868ebd6adbd985900e3bf1320d54c8_b.png&quot; data-rawwidth=&quot;609&quot; data-rawheight=&quot;682&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;609&quot; data-original=&quot;https://pic1.zhimg.com/v2-01868ebd6adbd985900e3bf1320d54c8_r.png&quot;&gt;&lt;p&gt;（注：热帖的详细网址需要加&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//tieba.baidu.com&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;百度贴吧--全球最大的中文社区&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，如&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//tieba.baidu.com/p/2240661399&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;【我问你答】高考版，100个问题，帮你找到动力。_高考吧_百度贴吧&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，下同）&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;2013年十大热帖&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;跟踪每年的热帖，及时发现用户兴趣点的变化，2013年作为最活跃的年份，帖子回复数的量级也不同一般年份&lt;/p&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-649e4cd13adac84d0ae9f327e11f2641_b.png&quot; data-rawwidth=&quot;625&quot; data-rawheight=&quot;680&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;625&quot; data-original=&quot;https://pic2.zhimg.com/v2-649e4cd13adac84d0ae9f327e11f2641_r.png&quot;&gt;&lt;h3&gt;&lt;strong&gt;2016年十大热帖&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;近几年的活跃低谷年份—2016年，热帖回复数的最大值比2013年热帖的最小值要小得多，这届的吧友不行？开玩笑的，：)&lt;/p&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-2c4f4e0cca4ce365f8751f8ab0109371_b.png&quot; data-rawwidth=&quot;620&quot; data-rawheight=&quot;677&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;620&quot; data-original=&quot;https://pic2.zhimg.com/v2-2c4f4e0cca4ce365f8751f8ab0109371_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;十大活跃用户&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;找到活跃用户，然后可以做什么呢？追踪活跃用户的发言，维护活跃用户体系&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-a535825ce5f9fa28411d19c0f94522bf_b.png&quot; data-rawwidth=&quot;591&quot; data-rawheight=&quot;675&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;591&quot; data-original=&quot;https://pic4.zhimg.com/v2-a535825ce5f9fa28411d19c0f94522bf_r.png&quot;&gt;&lt;br&gt;&lt;h3&gt;&lt;strong&gt;2013年十大活跃用户&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;江山代有才人出，各领风骚数百年（为了保护用户隐私，原谅小编给用户名加上部分马赛克）&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-d5c0b9c6d142b235311e8c7f94e24677_b.png&quot; data-rawwidth=&quot;590&quot; data-rawheight=&quot;679&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;590&quot; data-original=&quot;https://pic4.zhimg.com/v2-d5c0b9c6d142b235311e8c7f94e24677_r.png&quot;&gt;&lt;h3&gt;&lt;strong&gt;2016年十大活跃用户&lt;/strong&gt;&lt;/h3&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-caea3d5b96deaecd83ae09f3cf08835e_b.png&quot; data-rawwidth=&quot;595&quot; data-rawheight=&quot;680&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;595&quot; data-original=&quot;https://pic3.zhimg.com/v2-caea3d5b96deaecd83ae09f3cf08835e_r.png&quot;&gt;&lt;h2&gt;&lt;strong&gt;深入分析2013年发帖情况&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;分析2013年每天的发帖量情况，3、4、5、6和7月的发帖量较大，特别是6月考完和出分的那段时间.&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-a3a6709af1c5616e3c380f47ef41dd88_b.png&quot; data-rawwidth=&quot;678&quot; data-rawheight=&quot;246&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;678&quot; data-original=&quot;https://pic1.zhimg.com/v2-a3a6709af1c5616e3c380f47ef41dd88_r.png&quot;&gt;&lt;br&gt;&lt;p&gt;分析3、4、5、6和7月份的发帖时间，3、4和5月份中熬夜人数占比较大，但是逐月减小，到了6月份后，熬夜比例减少一半左右，说明大部分人有好的考试习惯嘛。不能只看时发帖量的大趋势，要保持深挖数据的好习惯&lt;br&gt;&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-0d262f915f359e7d4aa0a8a7e2f6c162_b.png&quot; data-rawwidth=&quot;633&quot; data-rawheight=&quot;731&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;633&quot; data-original=&quot;https://pic3.zhimg.com/v2-0d262f915f359e7d4aa0a8a7e2f6c162_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;贴吧关键词&lt;/strong&gt;&lt;/h2&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;200多万&lt;/strong&gt;个标题做成词云&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-663a62aa8881dec73dcac3e6705bd26a_b.png&quot; data-rawwidth=&quot;658&quot; data-rawheight=&quot;787&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;658&quot; data-original=&quot;https://pic3.zhimg.com/v2-663a62aa8881dec73dcac3e6705bd26a_r.png&quot;&gt;&lt;br&gt;&lt;h2&gt;&lt;strong&gt;总结&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;从高考吧的分析上来看，高考学生关心的内容和喜欢的内容形式，与中考吧类似。近年来，高考吧的发帖量不断下降，与百度贴吧活跃度走低的大环境密切相关，贴吧作为一个社区平台，社交功能做的并不好，对增强用户粘性很不利。&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;节选&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;（1）2012年&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//tieba.baidu.com/p/1653549741&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;【联名宣誓】2013届高考决心书！六月倒计时，奋战每一天！！_高考吧_百度贴吧&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;（2）2013年&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//tieba.baidu.com/p/2355829518&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;【联名宣誓】2014届高考决心书！六月倒计时，奋战每一天！！_高考吧_百度贴吧&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;（3）2016年&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//tieba.baidu.com/p/4533354100&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;【记录贴】一命两运三风水 四积功德五读书&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;写在后面&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;热爱Python、喜欢数据可视化、关注K12在线教育产品运营，愿意付出更多的努力去了解，如果有任何的建议或者批评，请不吝赐教，谢谢。&lt;/p&gt;&lt;br&gt;&lt;p&gt;——周文闻&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-fbf790f51e8a5e094d09fab7a525a746_b.png&quot; data-rawwidth=&quot;705&quot; data-rawheight=&quot;408&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;705&quot; data-original=&quot;https://pic3.zhimg.com/v2-fbf790f51e8a5e094d09fab7a525a746_r.png&quot;&gt;&lt;br&gt;&lt;p&gt;---------------------&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;作者：EasyCharts&lt;/p&gt;&lt;p&gt;博客专栏：&lt;a href=&quot;https://link.zhihu.com/?target=https%3A//ask.hellobi.com/blog/EasyCharts&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;EasyCharts 博客专栏&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;公众号：EasyCharts&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;大家也可以加小编微信：tszhihu （备注：Python），拉大家到 Python爱好者社区 微信群，可以跟各位老师互相交流。谢谢。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;也可以关注微信公众号：Python爱好者社区 (ID:python_shequ)&lt;/b&gt;&lt;/p&gt;</textarea>
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/v2-c24f1c4aab8a833bf52072b90f1574d0_200x112.jpg" data-rawwidth="646" data-rawheight="803" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-c24f1c4aab8a833bf52072b90f1574d0_r.jpg"><strong>2017年高考倒计时：72天！</strong>今天推文的作者是我们Easycharts新的小伙伴周文闻，对爬虫研究较多，目前对百度贴吧的爬取有些心得，欢迎感兴趣的同学一起交流，文末有联系方式哦！所以，没错，今天我们就从爬虫的结果来分析下百度贴吧——高考吧！<strong>爬虫过程概述</strong>高…
+
+<a href="https://zhuanlan.zhihu.com/p/26005733" class="toggle-expand">显示全部</a>
+
+</div>
+
+<p class="hidden-default"><a class="post-link entry-link" target="_blank" href="https://zhuanlan.zhihu.com/p/26005733">2017-03-26</a></p>
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta meta clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+
+<a data-follow="c:link" class="zg-follow meta-item js-followButton" href="#" id="cl-26294"><i class="z-icon-follow"></i>关注专栏</a>
+
+<a href="#" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>16 条评论</a>
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+<span class="zg-bull zu-autohide">•</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+<span class="zg-bull">•</span>
+<a href=https://zhuanlan.zhihu.com/p/26005733 class="meta-item" target="_blank">去往文章页</a>
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="0">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-1
+ 
+"
+feed-item-p data-type="p"
+id="feed-1"
+>
+<meta itemprop="ZReactor" data-id="2565339" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_article&quot;, &quot;voteups&quot;: 13, &quot;comments&quot;: 0, &quot;source&quot;: [[&quot;topic&quot;, 872]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="Python" data-hovercard="t$t$19552832"
+class="zm-item-link-avatar"
+href="/topic/19552832"
+target="_blank">
+<img src="https://pic1.zhimg.com/3111ec1cc_m.jpg" alt="Python" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19552832" data-hovercard="t$b$19552832" data-token="19552832" data-topicid="872" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">Python</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="post-id" content="2565339">
+<meta itemprop="post-url-token" content="25946167">
+<h2 class="feed-title"><a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/25946167" data-za-element-name="Title">送给每一个jr的［重浮力］python爬虫虎扑BXJ福利教程</a></h2>
+
+<div class="entry-body post-body js-collapse-body">
+
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="#" data-bind-votecount>13</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">13</span>
+<span class="label sr-only">赞</span>
+</button>
+</div>
+
+
+<div class="author-info summary-wrapper">
+<span class="author-link-line">
+<a href="/people/stefan_j" data-hovercard="p$t$stefan_j" class="name author-link"
+>生活缺乏心跳</a></span><span title="FRM1+Python+SQL+大数据" class="bio">
+FRM1+Python+SQL+大数据
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="13">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">13</span>&nbsp;人赞</a></span>
+
+
+</div>
+<div class="post-content" data-author-name="生活缺乏心跳" data-entry-url="https://zhuanlan.zhihu.com/p/25946167">
+<textarea class="content hidden">&lt;img src=&quot;https://pic4.zhimg.com/v2-5653c4a461947dfd125f4c918119d057_b.png&quot; data-rawwidth=&quot;750&quot; data-rawheight=&quot;752&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;750&quot; data-original=&quot;https://pic4.zhimg.com/v2-5653c4a461947dfd125f4c918119d057_r.png&quot;&gt;知乎和虎扑都是我自己喜欢的平台。&lt;p&gt;虎扑的步行街的确刷掉了我很多的生命，但是也收获了很多jr的正能量和归属感。&lt;/p&gt;&lt;p&gt;我是一个不怎么爱收藏的浮力的良好青年，但是怎奈发帖必须要福利图呢？&lt;/p&gt;&lt;p&gt;我是一个为jr着想，知道很多朋友都想要收藏步行街的福利图。&lt;/p&gt;&lt;p&gt;所以秉着这样高尚的精神，我用爬虫收藏了步行街的福利图。因为发帖数量真的很多，所以只能下载了部分。授人以鱼不如授人以渔，我也想分享自己写的python的爬虫。&lt;/p&gt;&lt;blockquote&gt;&lt;b&gt;如果你们不会python，没关系！文末有我下载好的福利压缩文件，放心拿去用。&lt;/b&gt;&lt;br&gt;&lt;b&gt;新手友好型教程，需要的朋友可以拿去练手。&lt;/b&gt;&lt;/blockquote&gt;&lt;p&gt;主要用的库是urllib,urllib2和正则匹配&lt;/p&gt;&lt;h2&gt;1、获得发帖页面地址&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-2921e7348fcf9981337c875b5f769e16_b.png&quot; data-rawwidth=&quot;1210&quot; data-rawheight=&quot;254&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1210&quot; data-original=&quot;https://pic3.zhimg.com/v2-2921e7348fcf9981337c875b5f769e16_r.png&quot;&gt;这里我们看到每一个页面的地址组成方式是&lt;a href=&quot;http://link.zhihu.com/?target=https%3A//bbs.hupu.com/bxj&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;bbs.hupu.com/bxj&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; 加 &quot;-&quot; 加你浏览的页数。意思就是如果你要看第100页的内容，你的网站地址就&lt;a href=&quot;http://link.zhihu.com/?target=https%3A//bbs.hupu.com/bxj-100&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;bbs.hupu.com/bxj-100&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;/p&gt;&lt;p&gt;那么我们就可以很容易构建出前100个页面地址&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_pages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#新建一个list&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;new_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;＃构建一个完整的地址&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;你可以运行这个函数，看看最后的结果是不是你想要的那些页面的地址&lt;/p&gt;&lt;h2&gt;2、进入每个页面，获得每个帖子地址&lt;/h2&gt;&lt;p&gt;我们来看下第一个页面的源代码。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-7cb2df02c1062c047fd8a9d80891c73a_b.png&quot; data-rawwidth=&quot;1221&quot; data-rawheight=&quot;844&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1221&quot; data-original=&quot;https://pic3.zhimg.com/v2-7cb2df02c1062c047fd8a9d80891c73a_r.png&quot;&gt;很容易看到每个帖子的链接格式：&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;a id=&quot;&quot; href=&quot;/xxxxxxxx.html&quot;&amp;gt;xxxxxxxxxxxxxxxx&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span&gt;&lt;/span&gt;href=&quot;/xxxxxxxx.html
+显然不是一个完整的链接。我们点击进入之后，可以看到完整的链接是https://bbs.hupu.com/xxxxxxxx.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;所以我们找到了如何构建每个帖子的地址。在之前我们先要请求每个发帖页面&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#url参数就是之前获得的一个页面地址&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;urls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;req&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;basic_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://bbs.hupu.com'&lt;/span&gt;
+
+    &lt;span class=&quot;err&quot;&gt;＃&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/xxxxxxxx.html&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxxxxxxxxxxxxxxx&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;＃通过正则匹配所要的内容&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;r'''&amp;lt;a id=&quot;&quot; href=&quot;(/\d+.html)'''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;basic_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;＃构建帖子地址&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;urls&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;h2&gt;3、进入每个帖子，获得图片链接&lt;/h2&gt;&lt;p&gt;这里我随机进入一个帖子看看咯&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-94f2fcc243ba50947004cd17d387874e_b.png&quot; data-rawwidth=&quot;1201&quot; data-rawheight=&quot;378&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1201&quot; data-original=&quot;https://pic3.zhimg.com/v2-94f2fcc243ba50947004cd17d387874e_r.png&quot;&gt;这是他的源代码，可以看到链接如下&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;img src=&quot;https://i10.hoopchina.com.cn/hupuapp/bbs/371/21677371/thread_21677371_20170329094700_s_6833_h_360px_w_540px697236632.png?x-oss-process=image/resize,w_800/format,webp&quot; data-w=&quot;540&quot; data-h=&quot;360&quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以用下面正则匹配。&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span&gt;&lt;/span&gt;pattern = re.compile(r'''https://i10.hoopchina.com.cn/.+?jpeg''')
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;＃参数是每个图片的地址和变量&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#这里是我下载目的地址&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/Volumes/Elements/python_project/hupu/'&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;req&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;r'''https://i10.hoopchina.com.cn/.+?jpeg'''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))):&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;＃文件名有&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;＋&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;组成&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.jpg&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlretrieve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;h2&gt;4、最后将函数合起来&lt;/h2&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span&gt;&lt;/span&gt;bxj = 'https://bbs.hupu.com/bxj'
+
+page_list = get_pages(bxj) 
+
+alllinks = list()
+＃将所有页面中的所有帖子链接添加到alllinks列表中
+for page in page_list:
+    alllinks += get_links(page)
+
+＃访问每一个帖子
+i = 1
+for img_link in alllinks:
+    try:
+        ＃开始下载图片
+        get_img(img_link,i)
+        i +=1
+        print img_link,&quot;has been downloaded&quot;
+        time.sleep(2)
+    except:
+        print img_link,&quot;no pictures&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;测试代码效果如下。&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-2c086aa1ca3c22e613c8b1bfba0025eb_b.png&quot; data-rawwidth=&quot;377&quot; data-rawheight=&quot;424&quot; class=&quot;content_image&quot; width=&quot;377&quot;&gt;&lt;br&gt;&lt;p&gt;这是我上周测试的内容：&lt;/p&gt;&lt;p&gt;虎扑福利集合.zip  链接: &lt;a href=&quot;http://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1byWXNS&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;pan.baidu.com/s/1byWXNS&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; 密码: savb&lt;/p&gt;&lt;p&gt;如果你想要最新的图片，欢迎私信，我也可以帮你下载一下。 哈哈&lt;/p&gt;&lt;p&gt;其实步行街中，除了福利图，还有好多有意思的图片。&lt;/p&gt;&lt;p&gt;封面来自@二院画师&lt;/p&gt;</textarea>
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/v2-5653c4a461947dfd125f4c918119d057_200x112.png" data-rawwidth="750" data-rawheight="752" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-5653c4a461947dfd125f4c918119d057_r.png">知乎和虎扑都是我自己喜欢的平台。虎扑的步行街的确刷掉了我很多的生命，但是也收获了很多jr的正能量和归属感。我是一个不怎么爱收藏的浮力的良好青年，但是怎奈发帖必须要福利图呢？我是一个为jr着想，知道很多朋友都想要收藏步行街的福利图。所以秉着这样…
+
+<a href="https://zhuanlan.zhihu.com/p/25946167" class="toggle-expand">显示全部</a>
+
+</div>
+
+<p class="hidden-default"><a class="post-link entry-link" target="_blank" href="https://zhuanlan.zhihu.com/p/25946167">昨天 12:03</a></p>
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta meta clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+
+
+
+<a href="#" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>添加评论</a>
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+<span class="zg-bull zu-autohide">•</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+<span class="zg-bull">•</span>
+<a href=https://zhuanlan.zhihu.com/p/25946167 class="meta-item" target="_blank">去往文章页</a>
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="1">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-2
+ 
+"
+feed-item-p data-type="p"
+id="feed-2"
+>
+<meta itemprop="ZReactor" data-id="2515474" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_article&quot;, &quot;voteups&quot;: 1173, &quot;comments&quot;: 96, &quot;source&quot;: [[&quot;topic&quot;, 1103]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="数据挖掘" data-hovercard="t$t$19553534"
+class="zm-item-link-avatar"
+href="/topic/19553534"
+target="_blank">
+<img src="https://pic1.zhimg.com/3d11abd48_m.jpg" alt="数据挖掘" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19553534" data-hovercard="t$b$19553534" data-token="19553534" data-topicid="1103" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">数据挖掘</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="post-id" content="2515474">
+<meta itemprop="post-url-token" content="25821728">
+<h2 class="feed-title"><a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/25821728" data-za-element-name="Title">一夜之间从知乎小透明到万赞。。。需要多少个大V扶持呢？</a></h2>
+
+<div class="entry-body post-body js-collapse-body">
+
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="#" data-bind-votecount>1173</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1173</span>
+<span class="label sr-only">赞</span>
+</button>
+</div>
+
+
+<div class="author-info summary-wrapper">
+<span class="author-link-line">
+<a href="/people/kumakuma-47" data-hovercard="p$t$kumakuma-47" class="name author-link"
+>Kumakuma</a></span><span title="造好玩的玩具" class="bio">
+造好玩的玩具
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1173">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1173</span>&nbsp;人赞</a></span>
+
+
+</div>
+<div class="post-content" data-author-name="Kumakuma" data-entry-url="https://zhuanlan.zhihu.com/p/25821728">
+<textarea class="content hidden">&lt;img src=&quot;https://pic2.zhimg.com/v2-626790fe3e215c67e4b110cfacd8a831_b.png&quot; data-rawwidth=&quot;1245&quot; data-rawheight=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1245&quot; data-original=&quot;https://pic2.zhimg.com/v2-626790fe3e215c67e4b110cfacd8a831_r.png&quot;&gt;周末刷了部剧，一时兴起写了篇文章《&lt;a href=&quot;https://zhuanlan.zhihu.com/p/25715712?group_id=825721343365492736&quot; class=&quot;internal&quot;&gt;推荐一部真人秀，看完好想删了朋友圈。。。 - 知乎专栏&lt;/a&gt;》，结果就这么无心插柳地达成了万赞成就（截止到目前为止16734个赞）。要知道在这之前，我就是一个标准的知乎小透明，11年加入知乎到现在，只答过1次题，一共只有13个关注者，还都是线下本来就认识的朋友。&lt;p&gt;&lt;img src=&quot;http://pic4.zhimg.com/v2-e6b3b763b664487403ca05e582bdd51b_b.png&quot; data-rawwidth=&quot;1564&quot; data-rawheight=&quot;1018&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1564&quot; data-original=&quot;http://pic4.zhimg.com/v2-e6b3b763b664487403ca05e582bdd51b_r.png&quot;&gt;而这篇文章一夜之间爆红，让我产生了一个疑惑，从一个知乎小透明到万赞文章，在毫无刻意推广的情况下，是怎么传播开的？幸运的是，知乎完整的记录下了所有点赞的ID，以及点赞的先后顺序，看起来可以爬一发！&lt;br&gt;&lt;/p&gt;&lt;h1&gt;基本假设&lt;/h1&gt;&lt;p&gt;首先把所有点赞的账户按照先后顺序排列，纵轴是该账户的关注者数量。线比较高的就是传说中的知乎大v了。【可以明显的看出，每一波都是大v点赞带来群众点赞的节奏】，划掉 ——有评论指出，这个一点也不明显，应该跟时间结合在起来，大v点赞-&amp;gt;点赞速度暴涨这样，才能证明了是大V带节奏。然而根据现有的渠道，没有一个直接的方法可以拿到点赞的timestamp（&lt;i&gt;时间戳）&lt;/i&gt;，也就只好这么粗放的显然一下了。&lt;/p&gt;&lt;img src=&quot;http://pic3.zhimg.com/v2-d96a987c7e1006717c39b2e9928aaf1e_b.png&quot; data-rawwidth=&quot;772&quot; data-rawheight=&quot;514&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;772&quot; data-original=&quot;http://pic3.zhimg.com/v2-d96a987c7e1006717c39b2e9928aaf1e_r.png&quot;&gt;&lt;p&gt;那么接下来要确认的就是，哪些童鞋的赞，给我带了关键性的爆发性的增长（传说中的大腿啊！抓到了要紧紧抱住！）。按照知乎的机制，用户点赞的时候，其关注者的时间线上就会出现该动态。这是文章在知乎内被传播出去的唯一途径。由于能够抓取到的数据有限，我只能基于此做了一些假设。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;假设小明有 700个关注者，当他点了赞之后，就会在700个人的页面上出现，因此定义为700个impression（&lt;i&gt;展示量&lt;/i&gt;）。&lt;/li&gt;&lt;li&gt;而这700个人中，有30个人因为看了小明的点赞，也打开文章点了赞，那就是有30个conversion（&lt;i&gt;有效转化&lt;/i&gt;）。&lt;/li&gt;&lt;li&gt;小李关注了小明同学，但是他点赞发生在小明同学之前，那么这就不算是一个有效转化。&lt;/li&gt;&lt;li&gt;当一个用户关注的多个账户都给这篇文章点了赞，那这篇文章就会在时间轴上出现多次，因此记为多次有效转化，也就是说不做去重处理。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;因此，我决定采用“有效转化”，而非“展示量”，作为用户影响力的衡量标准。那么现在我们把每个有效转化都画成一条线的话，就有了一个 social network graph（&lt;i&gt;社交网络图谱&lt;/i&gt;）。&lt;/p&gt;&lt;h1&gt;100个赞&lt;/h1&gt;&lt;p&gt;都说从0到1是最难的，那让我们看看，在起步阶段，带来头100个赞的衣食父母都是谁呢。&lt;/p&gt;&lt;img src=&quot;http://pic4.zhimg.com/v2-79074b80edf5cb2f7baf51722a252de3_b.png&quot; data-rawwidth=&quot;1108&quot; data-rawheight=&quot;995&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1108&quot; data-original=&quot;http://pic4.zhimg.com/v2-79074b80edf5cb2f7baf51722a252de3_r.png&quot;&gt;&lt;p&gt;感谢CCTV MTV ! 感谢所有的早期点赞用户！好吧，看起来有点凌乱，感谢致辞环节结束，让我们把大部分群众的标签给去掉，看看有哪些大v中v小v在带节奏呢。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://pic1.zhimg.com/v2-4bc9e76313ad33a57e5671d124258280_b.png&quot; data-rawwidth=&quot;961&quot; data-rawheight=&quot;872&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;961&quot; data-original=&quot;http://pic1.zhimg.com/v2-4bc9e76313ad33a57e5671d124258280_r.png&quot;&gt;这时候故事路径就很明显了。左上角的小红点，都是认识的朋友，零零散散从微信朋友圈上来的。中间的一大波赞按图索骥，可以看到都是由&lt;a href=&quot;http://www.zhihu.com/people/2c261f1c1ea50cdec6c8488f21c5327f&quot; data-hash=&quot;2c261f1c1ea50cdec6c8488f21c5327f&quot; class=&quot;member_mention&quot; data-title=&quot;@grapeot&quot; data-editable=&quot;true&quot; data-hovercard=&quot;p$b$2c261f1c1ea50cdec6c8488f21c5327f&quot;&gt;@grapeot&lt;/a&gt; 引发的。&lt;a href=&quot;http://www.zhihu.com/people/2c261f1c1ea50cdec6c8488f21c5327f&quot; data-hash=&quot;2c261f1c1ea50cdec6c8488f21c5327f&quot; class=&quot;member_mention&quot; data-title=&quot;@grapeot&quot; data-editable=&quot;true&quot; data-hovercard=&quot;p$b$2c261f1c1ea50cdec6c8488f21c5327f&quot;&gt;@grapeot&lt;/a&gt; 是谁？五年前在fb实习时，坐在我对过道的同一个组的哥们，目前在知乎上有2万多个关注者。他的赞带来了&lt;a href=&quot;http://www.zhihu.com/people/b228918246a65d9e16d5c0f6a8329205&quot; data-hash=&quot;b228918246a65d9e16d5c0f6a8329205&quot; class=&quot;member_mention&quot; data-hovercard=&quot;p$b$b228918246a65d9e16d5c0f6a8329205&quot; data-editable=&quot;true&quot; data-title=&quot;@熊辰炎&quot;&gt;@熊辰炎&lt;/a&gt; , CMU机器学习大神的赞，这个赞又进一步带来了其他大v的赞。&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;http://pic1.zhimg.com/v2-7ef76d21fdaba10f3ce0aaf46a72c2e8_b.png&quot; data-rawwidth=&quot;1368&quot; data-rawheight=&quot;372&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1368&quot; data-original=&quot;http://pic1.zhimg.com/v2-7ef76d21fdaba10f3ce0aaf46a72c2e8_r.png&quot;&gt;&lt;h1&gt;3500个赞&lt;/h1&gt;&lt;p&gt;接下来看看，达到千赞需要哪些大v的加持。这里选取了前3500个赞作为截点，是因为到3500赞的时候，已经收到了知乎的站内信通知，被官方微博跟知乎日报推送了。在那之后的传播途径，就已经不再局限于点赞所带来的触发量了。&lt;/p&gt;&lt;p&gt;第一步，导入数据！额，这黑漆漆的一片..啥玩意...&lt;/p&gt;&lt;img src=&quot;http://pic3.zhimg.com/v2-00321bfef6de5117afa75ec45246ac6e_b.png&quot; data-rawwidth=&quot;616&quot; data-rawheight=&quot;532&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;616&quot; data-original=&quot;http://pic3.zhimg.com/v2-00321bfef6de5117afa75ec45246ac6e_r.png&quot;&gt;&lt;p&gt;调整一下布局，看着还挺有美感的，有种现代行为艺术家泼墨的风采，打算打印出来挂在家里当壁画了。&lt;/p&gt;&lt;img src=&quot;http://pic2.zhimg.com/v2-9155e45b02b47ec8a02fd6e54dcc07d9_b.png&quot; data-rawwidth=&quot;1156&quot; data-rawheight=&quot;1216&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1156&quot; data-original=&quot;http://pic2.zhimg.com/v2-9155e45b02b47ec8a02fd6e54dcc07d9_r.png&quot;&gt;&lt;p&gt;给点分类，上色，根据有效转化量设置权重，调整点的大小。&lt;/p&gt;&lt;img src=&quot;http://pic4.zhimg.com/v2-7bad9f4ef2faa02ce609462b20fb6c3b_b.png&quot; data-rawwidth=&quot;1178&quot; data-rawheight=&quot;1200&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1178&quot; data-original=&quot;http://pic4.zhimg.com/v2-7bad9f4ef2faa02ce609462b20fb6c3b_r.png&quot;&gt;有点小激动，让我们加上标签，看看关键人物都是谁！&lt;br&gt;&lt;img src=&quot;http://pic2.zhimg.com/v2-82a0ef16b66e173c4c023bc2bb3889cd_b.png&quot; data-rawwidth=&quot;1319&quot; data-rawheight=&quot;1185&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1319&quot; data-original=&quot;http://pic2.zhimg.com/v2-82a0ef16b66e173c4c023bc2bb3889cd_r.png&quot;&gt;&lt;p&gt;额...这是怎么回事...密密麻麻看不见了要...那么过滤一下，只有带来有效转化数量大于500的节点，才显示标签。这样是不是清爽多了！咦，右下角的imike是谁？说脱口秀的那个老外也来知乎了？点开主页一看... &lt;a data-hash=&quot;8b68876001197b3b9cd605b20814616f&quot; href=&quot;http://www.zhihu.com/people/8b68876001197b3b9cd605b20814616f&quot; class=&quot;member_mention&quot; data-hovercard=&quot;p$b$8b68876001197b3b9cd605b20814616f&quot; data-editable=&quot;true&quot; data-title=&quot;@张亮&quot;&gt;@张亮&lt;/a&gt;，知乎联合创始人！！！排名第二的id看着也好陌生，让我来读一读...&lt;a href=&quot;http://www.zhihu.com/people/a2487eb0b5a416d0a4e6454ca8c7eef7&quot; data-hash=&quot;a2487eb0b5a416d0a4e6454ca8c7eef7&quot; class=&quot;member_mention&quot; data-hovercard=&quot;p$b$a2487eb0b5a416d0a4e6454ca8c7eef7&quot; data-editable=&quot;true&quot; data-title=&quot;@滕腾&quot;&gt;@滕腾&lt;/a&gt;  ？？？what？？被偶像临幸了？！！排名第三的jeffz又是哪位，认识好多个叫jeff的童鞋，但是印象中都不太上知乎呀...打开主页，&lt;a href=&quot;http://www.zhihu.com/people/78e3b98074a915b222ae1be4ab038a6e&quot; data-hash=&quot;78e3b98074a915b222ae1be4ab038a6e&quot; class=&quot;member_mention&quot; data-title=&quot;@赵劼&quot; data-hovercard=&quot;p$b$78e3b98074a915b222ae1be4ab038a6e&quot; data-editable=&quot;true&quot;&gt;@赵劼&lt;/a&gt;  知乎“温赵轮”三大软狗之一！！！evanyou咦，这个感觉有点眼熟！对！vuejs的作者, &lt;a href=&quot;http://www.zhihu.com/people/cfdec6226ece879d2571fbc274372e9f&quot; data-hash=&quot;cfdec6226ece879d2571fbc274372e9f&quot; class=&quot;member_mention&quot; data-hovercard=&quot;p$b$cfdec6226ece879d2571fbc274372e9f&quot; data-editable=&quot;true&quot; data-title=&quot;@尤雨溪&quot;&gt;@尤雨溪&lt;/a&gt;  ！！kaiqu这个我认识！&lt;a href=&quot;http://www.zhihu.com/people/563d7c2ad2de1f7ae7c07d35e734293d&quot; data-hash=&quot;563d7c2ad2de1f7ae7c07d35e734293d&quot; class=&quot;member_mention&quot; data-title=&quot;@曲凯&quot; data-hovercard=&quot;p$b$563d7c2ad2de1f7ae7c07d35e734293d&quot; data-editable=&quot;true&quot;&gt;@曲凯&lt;/a&gt; 老师！微信大号“42章经”的拥有者，VC界的网红！就不一一举例了，基本上点开每个ID，都会被背后的主人给吓到....这篇文章的受众，显然已经横跨了创业圈，媒体圈，科技圈，VC圈等各大圈子，这时候再不火没天理啊。 &lt;/p&gt;&lt;br&gt;&lt;p&gt;还记得在100赞里出现的几个关键ID嘛？grapeot, xiong-cheng-yan, quartz 等等，也都在这个榜单里出现了。那么新出现的这些大v，又都是谁带来的呢。回去重新看原始数据，基本上每个ID跟grapeot之间，都只间隔了一到两个中间人。也就是说，grapeot尽管在这张图中变成了一个小圆圈，但依旧扮演了ancestor（祖先节点）的角色。&lt;/p&gt;&lt;img src=&quot;http://pic2.zhimg.com/v2-0a6ffd838cdcf4f9ef3bbb0711e11e91_b.png&quot; data-rawwidth=&quot;1320&quot; data-rawheight=&quot;1145&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1320&quot; data-original=&quot;http://pic2.zhimg.com/v2-0a6ffd838cdcf4f9ef3bbb0711e11e91_r.png&quot;&gt;&lt;img src=&quot;http://pic2.zhimg.com/v2-7da0e6d3b47f7afb930380f8d094bc1d_b.png&quot; data-rawwidth=&quot;480&quot; data-rawheight=&quot;914&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;480&quot; data-original=&quot;http://pic2.zhimg.com/v2-7da0e6d3b47f7afb930380f8d094bc1d_r.png&quot;&gt;&lt;br&gt;&lt;h1&gt;15000赞&lt;/h1&gt;&lt;p&gt;截止至我写爬虫的时候，大概有15000个赞左右。而此时因为知乎日报、微博、以及微信上的转载，已经很难界定后继的赞是因为什么原因进来的了。跟3500个赞采取了一样的数据处理过程，看看就好。&lt;/p&gt;&lt;img src=&quot;http://pic1.zhimg.com/v2-69867f3f97c631153abf67415ca18694_b.png&quot; data-rawwidth=&quot;1249&quot; data-rawheight=&quot;1047&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1249&quot; data-original=&quot;http://pic1.zhimg.com/v2-69867f3f97c631153abf67415ca18694_r.png&quot;&gt;&lt;br&gt;&lt;h1&gt;故事梗概&lt;/h1&gt;现在让我们一起来还原一下故事的梗概。周日的一个晚上，一个知乎小透明在刷完剧之后，写篇文章就睡觉去了，睡之前还是零赞。过了几个小时，在另外一个时区的微信好友grapeot上线了，并点了个赞。然后，引发了一众计算机圈子的大神们点赞，又进一步引发了张亮、好奇实验室等各界大V的赞，从而触发了网络效应。而grapeot作为最早在评论区留言的群众，也获得了评论千赞的成就。&lt;p&gt;这个故事告诉了我们，想在知乎火一把要怎么做？&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 请珍惜实习时坐在你过道的小伙伴 &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 找到你的知乎大V朋友，并找到TA跟TA的小伙伴们都关注的领域，然后等着你的大V朋友来点赞 &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 好吧，我承认我编不下去了，完全就是歪打正着，再让我来一篇万赞肯定是写不出来了。。。&lt;br&gt;&lt;/p&gt;&lt;p&gt;附：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;知乎数据爬取的部分采用了github repo: &lt;a href=&quot;http://link.zhihu.com/?target=https%3A//github.com/7sDream/zhihu-oauth&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;7sDream/zhihu-oauth&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，在此致敬！作者也在知乎上, id &lt;a href=&quot;http://www.zhihu.com/people/ef7be83f9f1fcab3adfa7a6a1f510427&quot; data-hash=&quot;ef7be83f9f1fcab3adfa7a6a1f510427&quot; class=&quot;member_mention&quot; data-hovercard=&quot;p$b$ef7be83f9f1fcab3adfa7a6a1f510427&quot; data-editable=&quot;true&quot; data-title=&quot;@7sDream&quot;&gt;@7sDream&lt;/a&gt; 。&lt;/li&gt;&lt;li&gt;图像生成采用了&lt;a href=&quot;http://link.zhihu.com/?target=https%3A//gephi.org/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Gephi&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，第一次尝试数据可视化，随手找了个开源软件。从效果上来看，还是相当不错的，在youtube上找段教学视频看半个小时，就可以上手画图了。唯一的问题是这软件有不太稳定，经常点着点着就死掉了，需要记住随时保存，然后不停地重启进程。t推荐这个视频 &lt;a href=&quot;http://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DsnPR8CwPld0&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;youtube.com/watch?&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;v=snPR8CwPld0&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，手把手教会你怎么画出一个彩色的图。&lt;/li&gt;&lt;li&gt;对于所有在文中出现的ID, 都表示衷心的感谢！！&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;附附（提问区）：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;某大神指出，是否可以跑个根据时间的pagerank，定量地描述传播过程中的贡献大小。不确定这是否一定需要timestamp，还是具有先后顺序就可以判断？&lt;/li&gt;&lt;li&gt;有什么方法可以方便地提取出点赞的timestamp？已知能从每个用户的点赞记录里面爬出来，但是这实在有点繁琐...&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;++++++++++++++++++&lt;/p&gt;&lt;p&gt;更新：评论区的好多同学对于自己是第几个点赞的，以及自己的影响力是多少很感兴趣，附上结果，&lt;a href=&quot;http://link.zhihu.com/?target=http%3A//codelab.hiwecloud.com/zhihu&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;codelab.hiwecloud.com/z&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;hihu&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，搜索自己的id就可以看到啦。页面简陋，请见谅~&lt;/p&gt;</textarea>
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/v2-626790fe3e215c67e4b110cfacd8a831_200x112.png" data-rawwidth="1245" data-rawheight="1080" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-626790fe3e215c67e4b110cfacd8a831_r.png">周末刷了部剧，一时兴起写了篇文章《<a href="https://zhuanlan.zhihu.com/p/25715712?group_id=825721343365492736" data-editable="true" data-title="推荐一部真人秀，看完好想删了朋友圈。。。 - 知乎专栏" class="">推荐一部真人秀，看完好想删了朋友圈。。。 - 知乎专栏</a>》，结果就这么无心插柳地达成了万赞成就（截止到目前为止16734个赞）。要知道在这之前，我就是一个标准的知乎小透明，11年加入知乎到现在，只答过1次题，一共只有1…
+
+<a href="https://zhuanlan.zhihu.com/p/25821728" class="toggle-expand">显示全部</a>
+
+</div>
+<div class="Tipjar-entry hidden js-tipjar">
+<div class="Tipjar-tagLine">「真诚赞赏，手留余香」</div>
+<a href="http://zhuanlan.zhihu.com/p/25821728#tipjar" target="_blank" class="Tipjar-entryButton">赞赏</a>
+</div>
+<p class="hidden-default"><a class="post-link entry-link" target="_blank" href="https://zhuanlan.zhihu.com/p/25821728">2017-03-17</a></p>
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta meta clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+
+<a data-follow="c:link" class="zg-follow meta-item js-followButton" href="#" id="cl-30118"><i class="z-icon-follow"></i>关注专栏</a>
+
+<a href="#" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>96 条评论</a>
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+<span class="zg-bull zu-autohide">•</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+<span class="zg-bull">•</span>
+<a href=https://zhuanlan.zhihu.com/p/25821728 class="meta-item" target="_blank">去往文章页</a>
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="2">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-3
+ 
+"
+feed-item-p data-type="p"
+id="feed-3"
+>
+<meta itemprop="ZReactor" data-id="2599760" data-meta="{&quot;source_type&quot;: &quot;member_create_article&quot;, &quot;voteups&quot;: 1648, &quot;comments&quot;: 185, &quot;source&quot;: [[&quot;member&quot;, &quot;f9de84865e3e8455a09af78bfe4d1da5&quot;], [&quot;column&quot;, 154]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="张佳玮"
+data-hovercard="p$t$zhang-jia-wei"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/zhang-jia-wei">
+<img src="https://pic2.zhimg.com/424c70919_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+<a data-hovercard="p$t$zhang-jia-wei" href="https://www.zhihu.com/people/zhang-jia-wei" target="_blank" class="zg-link author-link" title="张佳玮"
+>张佳玮</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span> 在 <a class="column_link" href="https://zhuanlan.zhihu.com/zhangjiawei" data-hovercard="c$t$zhangjiawei" target="_blank" data-za-element-name="Title">张佳玮写字的地方</a> 中发布了文章
+
+<span class="zg-bull">•</span>
+<span class="time" data-timestamp="1490623365000">3 天前</span>
+
+</div>
+<div class="feed-content">
+<meta itemprop="post-id" content="2599760">
+<meta itemprop="post-url-token" content="26032089">
+<h2 class="feed-title"><a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/26032089" data-za-element-name="Title">爱情故事</a></h2>
+
+<div class="entry-body post-body js-collapse-body">
+
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="#" data-bind-votecount>1648</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1648</span>
+<span class="label sr-only">赞</span>
+</button>
+</div>
+
+
+<div class="author-info summary-wrapper">
+<span class="author-link-line">
+<a href="/people/zhang-jia-wei" data-hovercard="p$t$zhang-jia-wei" class="name author-link"
+>张佳玮</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/zhang-jia-wei#hilightbadge" target="_blank">文学话题优秀回答者</a></span>
+
+
+
+<span title="公众号：张佳玮写字的地方" class="bio">
+公众号：张佳玮写字的地方
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1648">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1648</span>&nbsp;人赞</a></span>
+
+
+</div>
+<div class="post-content" data-author-name="张佳玮" data-entry-url="https://zhuanlan.zhihu.com/p/26032089">
+<textarea class="content hidden">&lt;img src=&quot;https://pic4.zhimg.com/v2-821b5fa70d18f09fbd146164a1de12d7_b.jpg&quot; data-rawwidth=&quot;1440&quot; data-rawheight=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1440&quot; data-original=&quot;https://pic4.zhimg.com/v2-821b5fa70d18f09fbd146164a1de12d7_r.jpg&quot;&gt;&lt;p&gt;小伙子说，他是从乡下来的。&lt;/p&gt;&lt;p&gt;姑娘上下打量，不太相信：小伙子个子不算高，和她差不多；容貌清秀，有点儿抬头纹，看着很机灵，穿件蓝衬衣，一条黑裤子。旁边一辆旧金狮牌自行车，也干干净净，就是左边的车把掉了。小伙子抬腕看了看手表，说要上班了。上车，一串铃声断了线，在阳光下满地滚动，滑过烟酒商店门前、修自行车的脚边，卖油馓子的、扫地的阿姨、坐着抽烟的电影院放映员们都抬起头看他，看他到桥边，拐个弯。再眨一次眼，他就没了，铃声还在阳光下，圆溜溜，明亮亮的，溜达。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;姑娘骑她的旧凤凰自行车，回家路上总想着，怎么捺一下车铃才好。大拇指悬着，一直没捺下去。见着家门前的桃树了，车轮踩着井盖儿响，隔窗闻见妈烙面饼的香。她下车，跟晒太阳听半导体《珍珠塔》的邻居阿公打个招呼，就进了家门，绕进厨房去帮忙。她问妈：乡下人好不好？&lt;/p&gt;&lt;p&gt;妈说：有的好，有的不好。&lt;/p&gt;&lt;p&gt;吃饭时，后爸边皱着眉头扒饭，边说：不好。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;姑娘的亲爸爸在遗像框里看着他二十四岁的女儿，他在那儿呆了也有二十年了。妈妈会吵架，会打牌，会缝褂子，会编蒲扇子，会种花，会养鸡鸭鹅猫狗，但是一个寡妇，养不活姑娘和她弟弟。媒婆嘴里画出个男人，“在局里有工作”，正离了婚，看妈妈长得清秀，也没想到她后来会胖得像公共汽车，就来当了姑娘的后爸。后爸有一个女儿，笨又懒，中午才起床，日落就躺下，一年洗不了十次澡。后爸觉得，亲生女儿这是公主命，既然如此，就得有女佣人伺候，有个男佣人更好。姑娘和她弟弟虽然手脚笨点，毕竟吃家里喝家里，那就当佣人使唤吧。炖鸡汤，公主女儿吃鸡腿，姑娘和弟弟吃鸡脖子和爪子。熬鱼汤，公主女儿吃鱼肉，姑娘和弟弟啃鱼头鱼尾。馒头，公主女儿吃肉包子，姑娘和弟弟吃白面花卷，蘸点儿腐乳。姑娘把鸡脖子上丝缕的肉、鸡爪的掌筋、抹匀了腐乳的花卷给弟弟吃，叹一口气。妈妈看了，抹抹眼角，打个嗨声。&lt;/p&gt;&lt;br&gt;&lt;p&gt;弟弟本来脾气很好。后来有一天，走路撞了桃树，妈妈才发现他近视眼，给配了眼镜。看清楚世界后，弟弟脾气变暴。被后爸欺负了，张口就吵。后爸吼：我不养你，你长这么大？弟弟吼：你养我吗？吃鸡脖子，吃鱼头，啃肉骨头，你就是养了条狗！吵完架，弟弟就把眼镜布塞眼镜盒里，拿几本书塞进书包，气哼哼的出门，在门口还会吼一声：我这就去美国！再也不回来了！&lt;/p&gt;&lt;br&gt;&lt;p&gt;每到这时，妈妈就叹一口气，走进厨房。打两个鸡蛋，坠在碗里的面粉上，加水，拌，加点盐，加点糖。直到面、鸡蛋、盐、糖勾兑好了感情，像鸡蛋那样能流、能坠、能在碗里滑了，就洒一把葱。倒油在锅里，转一圈，起火。看着葱都沉没到面里头了，把面粉碗绕着圈倒进锅里，铺满锅底。一会儿，有一面煎微黄、有滋滋声、有面香了，她就把面翻个儿。两面都煎黄略黑、泛甜焦香时，她把饼起锅，再洒一点儿白糖。糖落在热饼上，会变成甜味的云。这时候，弟弟准靠着门边儿站着，右手食指挠嘴角。妈妈说：吃吧。弟弟就溜进来，捧着一碗面饼，拿双筷子，吃去了。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;姑娘上完高中，工作了，顶的是亲爸爸的班，去做了纺织工人。后爸觉得公主女儿少了个女佣人，很不高兴；发现姑娘开始有钱买东西了，居然还买了辆二手的凤凰自行车，更是不快乐。回头发现公主女儿找不到工作——朋友都一脸抱歉说，请你吃螺蛳，喝黄酒，可以。送你盒越剧磁带，也行。工作啊，没法安排——于是就打起了算盘。他对姑娘说：你该回家来，做做针线，让你姐姐——那个公主女儿——顶你的班。姑娘巧舌如簧的说：我顶我爸当年的班，这是厂里给的福利；我要不干了，这岗位也没了，没法让。这里说完，回头她就和厂里领导通了气。领导都喜欢她，于是对摸到厂里的后爸摆出正经八百的表情：这是厂里的规定，啊！不是我们能定的，啊！&lt;/p&gt;&lt;br&gt;&lt;p&gt;所以后爸不一定真的讨厌乡下人。他就是想让姑娘生气，所以：乡下人，不好！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;姑娘想去看那个乡下小伙子。她上班时就在想：过了桥，绕个弯，到桥下运河边那条马路。左手边是运河岸，河上有许多驳船，船上人家就在甲板上摆桌凳，吃红烧鱼肉拌米饭；要吃水果和蔬菜，就跟岸边卖水果的喊一声，他们扔钱过来，水果贩子就扔水果、包心菜过去，溜达的闲人看着喝彩。右手路边是电影院，电影放映员闲时就出门，在电影院旁的烟酒铺，和卖烟的人聊天，蹭烟抽。烟酒铺柜台上老是拆开着一两包烟，谁过去都能点一支抽，再往耳朵上顺一支。烟酒铺过去是馄饨包子店，那里一片雾腾腾，常有人站在门口，擦眼镜上的水气。再过去是浴室。姑娘没去过，但知道里面经常有人掀起大被子一样厚的门帘，跑到烟酒铺买烟，去馄饨店要碗馄饨，“拌馄饨，不要汤馄饨！”——这样拿起来不烫手——去给浴室客人吃。再过去是五金店，老板总是坐在门口和人下象棋，边下边拍膝盖：“（用方言）我来一个（立刻改用普通话）当头炮！”再过去，是卖油馓子的摊子，摊主也卖麻花。小孩子午饭时喜欢吃油馓子，咔嚓咔嚓，吃得满地碎金，扫地的阿姨回头看见，摇头叹气。再过去是个修自行车的，再过去是个两层小楼，一楼是书店，也能租书看；主人平时在二楼浇十几盆花，看客人来了，楼上楼下对答：要什么书？报纸？钱放柜台上吧！——再过去，就是进出口公司的仓库了，那里有许多油亮发蓝的大卡车，卡车后面是栋灰色的楼，小伙子就在楼上办公。他在几楼办公呢？&lt;/p&gt;&lt;br&gt;&lt;p&gt;姑娘一个办公室一个办公室扫过去——办公室大多是空的——在二楼一个靠街的办公室看到了小伙子。他右手翻书，左手拿玻璃杯喝茶。姑娘敲窗户，小伙子抬头见是她，就把她让进了办公室。姑娘说：你新调来这里的吧？小伙子说：对啊。&lt;/p&gt;&lt;p&gt;小伙子说，他是乡下人——这是姑娘第二次听见他这么开场了。他原先在进出口公司，据说要做科长了，可是别人看不惯他，说了他一些坏话，于是他被调来看仓库了。看仓库也不坏，人少，安静，可以看看书，可以吹吹笛子。闲了找人打牌，也没事——姑娘想：他会打牌，还会吹笛子啊——姑娘问：你会开卡车吗？小伙子愣了愣，说：不会。&lt;/p&gt;&lt;br&gt;&lt;p&gt;到午饭点了，小伙子说：吃午饭去吧——姑娘还没来得及脸红，小伙子就补了句：我有朋友在馄饨店等呢。他们俩沿路走时，扫地阿姨停下扫帚、压住烟尘看他们；修自行车的大叔笑眯眯的看他们，脑袋转了小半圈，又继续低头擦内胎、哼歌。阳光在头顶一路护着他们到了馄饨店。有一桌坐两个青年，见了小伙子，举手招呼。小伙子就指了指：我小兄弟们。&lt;/p&gt;&lt;p&gt;接着就听见了吵架声。&lt;/p&gt;&lt;p&gt;拿票排队端汤包笼屉那儿，两人在争，最后一屉汤包。下一屉蒸出来，还得好一会儿。一个矮个少年说：明明我先，你怎么插队？另一个大个子扛着肘子说：我是帮单位里买的，我急着！你靠后一点！俩人吵起来，人群站脚围观。小伙子看了看那俩人，又看了看他那桌朋友，大步走到大个子面前，拍拍他的肩：你怎么在这里？单位里有事，快出来！大个子一愣，回头看看，小伙子催了句：会计要找你，粮票的事。大个子一听着了急，跟了出去——姑娘站在原地，不知道该怎么办。她看着矮个少年端走了最后一屉包子，端到了小伙子“我小兄弟们”那桌上。她想了想，还是跟出了店门。&lt;/p&gt;&lt;p&gt;恰好看见大个子在门口出去七八步远，岔腿站着，涨红着脸生气：你搞什么？小伙子轻松的微笑着，阳光落在脸上，像手表表面似的亮：我说我哄你呢，我不认识你，也不知道你什么单位的。说完，他就把大个子扔下，进店门，顺手拉一把姑娘的袖子，到“我小兄弟们”那桌落座——几个青年已经聪明伶俐的把屉里包子吃空了，一边烫得嘴里嚯嚯连声，一边乐滋滋的看着跟进来的大个子，笑眯眯的——等大个子气走了，一路火车似的扑突扑突冒烟，他们又变戏法似的，从桌边摸出一碟藏好的包子来，连一碟带姜末的醋，递给小伙子：阿哥吃！——然后一起看看姑娘——阿姐吃！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;“阿姐”第二次去看“阿哥”时，掏出一副针织手套。第三次去看“阿哥”时，掏出一副塑料油瓶改装的自行车把。“小兄弟们”说：阿姐真是手巧！“阿哥”请“阿姐”去爬山，滑了一交，膝盖裤子破了，“阿姐”就踩着缝纫机给补好。妈妈过来，提起裤子看了看裤腿，点点头：小伙子不高啊？姑娘脸有点红，说：可是人长得挺好的！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;小伙子握着塑料油瓶做的自行车把，和姑娘一路铃声，踩响了井盖儿。弟弟放下高中课本，出门看了眼，立刻回身喊：妈，来客人了！妈在里屋，哎了一声。后爸听见了，走到门前看了看，眉皱得像干树枝。&lt;/p&gt;&lt;p&gt;看到妈妈做了一桌煮花生、炖鸡汤、熬鱼汤、摊面饼、红烧鳝鱼，后爸的眉头皱进肉里了。看到小伙子吃着鸡腿肉而非鸡脖子、鳝鱼肉而非蒜头、拿面饼蘸白糖而非干嚼，后爸听见自己胸口的气在呼噜呼噜响。小伙子跟姑娘、弟弟和妈妈说：其实鸡爪子很好吃，广东那里就拿鸡爪子下酒、配粥喝；其实鱼头也很好，熬汤尤其好，天目湖的鱼头汤就很有名，拿瓦罐熬，尤其好——我出差时就吃过。后爸听着，鼻子边上的肉开始抽了。等小伙子走了，他一边把小伙子送来的云片糕递给公主女儿吃，一边说：乡下人，不好！&lt;/p&gt;&lt;br&gt;&lt;p&gt;过了几天，纺织厂的书记找姑娘，说有人写匿名信，控诉姑娘有作风问题，提请厂里把她的岗位给撤了。书记说：这种谣言，我们当然不信。但你最好看看这笔迹，看是谁想害你。姑娘看了看笔迹，冷笑了一声。书记叹了口气说：你这个后爸爸，其实也有个好处。人比较戆，要做坏事，也做不顺利。&lt;/p&gt;&lt;br&gt;&lt;p&gt;小伙子第二次上门，离第一次一个星期，第三次上门离第二次五天，第四次上门离第三次三天。后爸发现自己吃到的鸡腿、鱼肉、鳝鱼越来越少，哪怕吃到，也不再有羡慕的眼光盯着他。姑娘、弟弟和妈妈都盯着小伙子，听他说他看过的书里的事，他出差时看过的事，他喝过的酒，他看过的电视节目，他在湖里游泳时的乐趣，他看过的南方的山和北方的山如何不一样，他如何一个人骑车跨过整个南京长江大桥。后爸生气了，后果很严重。他抄起门后的竹棍，朝小伙子额头就是两下，边打边说：说过叫你不要来了！叫你不要来了！！你还来！！&lt;/p&gt;&lt;br&gt;&lt;p&gt;竹棍用的时间长了，由绿变黄，硬而且韧，外面泛油光，挥起来呼呼带风声。听《珍珠塔》的阿公正听到方卿讲道情，忽然听见呼呼声，急忙从藤椅里起身，过来看一眼，正看见小伙子的发际那往下淌血，吓坏了，一跑一颠的去烟酒店叫人。烟酒店的人急忙找隔壁的联防队。联防队的人听说见了血，不敢怠慢，急忙飞跑去告诉派出所，又叫居委会卫生站的人先去。派出所来了两个骑自行车的，姑娘认出其中一个递给过她包子，叫过她阿姐——现在他穿了警服，急匆匆过来，严肃的问：阿哥，怎么样？&lt;/p&gt;&lt;br&gt;&lt;p&gt;那时小伙子的头已经被卫生站的纱布包好，血也擦干净了。地上的几滴血和凉了一半的菜肴晾在那，看上去挺突兀，一屋子挤了七八个邻居，还有十几个伸长脖子看热闹的邻居在门外看着。公主女儿吓得躲进里屋，隔一会儿伸出脑袋看看，又缩回去。小伙子用右手托着额，看了看面如土色的后爸，冷静的说：没事。我自己滑了一交，撞了门。没啥事情。不要破伤风针。小事情。嗯。&lt;/p&gt;&lt;p&gt;等人被劝走了，门关上了，家里只有自己人时，小伙子从后爸手里拿过竹棍，看着后爸，用手一拗，啪一声，竹棍脆生生的折了。小伙子说：这样吧。今天你打我，算过去了。但这是最后一回了。我游泳，跑步，也会打架，打你这样的，十个不在话下。以后你再欺负他们几个，我就揍你。你欺负一次，我揍一次。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;后爸对弟弟说：吃鸡腿，吃鸡腿。&lt;/p&gt;&lt;p&gt;后爸对妈妈说：吃鳝丝，吃鳝丝。这个鳝丝切得好！妈妈瞧了他一眼：这是我自己切的！&lt;/p&gt;&lt;p&gt;后爸对姑娘说：那个谁，啊，好几天不来了嘛。他什么时候再来啊？&lt;/p&gt;&lt;p&gt;姑娘说：他在单位忙。他说要回家，跟他爸妈说这个事情。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;阿公边摇头晃脑听《珍珠塔》，边对妈妈说：小伙子，人很好啊。&lt;/p&gt;&lt;p&gt;修自行车的大叔笑眯眯的对姑娘说：你男朋友今天又回家去了，没来上班！你们挺好的啊？&lt;/p&gt;&lt;p&gt;扫地的阿姨喝道：你们的“阿姐”在书店里！你们不要在这里嗑瓜子！刚扫好！！&lt;/p&gt;&lt;p&gt;书铺的老板在二楼挥一挥手：没有零钱就算了，拿一份吧……我明天问你男朋友要，哈哈哈哈！&lt;/p&gt;&lt;p&gt;妈妈看着小伙子编好的竹篾片栅门，看着里面一筹莫展、圆瞪两眼的老母鸡，满意的点头：热了吧？来吃酒酿圆子，吃芋头！&lt;/p&gt;&lt;p&gt;后爸听着小伙子喊“一、二、三”，两臂一较劲。后爸、小伙子和姑娘的弟弟合力，把最后一根木梁托上了葡萄架。后爸喘着粗气，满意的抬头，看阳光从井然有序的格子和边框的绿叶里透下来，点了点头：好啊，好啊，咳咳咳……好啊！来来歇歇，吃个苹果！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;姑娘对妈妈说：妈，我睡不着。你说他真的是乡下人吗？&lt;/p&gt;&lt;p&gt;妈妈说：不像。斯斯文文的，又干净，又读书。讲话的口音，也像是城里人。&lt;/p&gt;&lt;p&gt;姑娘说：哎，乡下人以后住在城里，也就是城里人了吧。&lt;/p&gt;&lt;p&gt;妈妈说：啊，其实我们家以前也是乡下人——现在的城里人以前都是乡下人。&lt;/p&gt;&lt;p&gt;姑娘说：我知道他家的地址，就是没去过。&lt;/p&gt;&lt;p&gt;妈妈翻个身说：要不然，我们去乡下，探探他？&lt;/p&gt;&lt;p&gt;姑娘说：探？？偷偷摸摸的！&lt;/p&gt;&lt;p&gt;妈妈说：我们又不是特务，不偷偷摸摸。我这是看女婿！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;坐了很久的公共汽车，坐到妈妈心生疑惑。路边的楼房越坐越矮，车里的乘客越坐越少。妈妈问司机：师傅，没开错地方吧？&lt;/p&gt;&lt;p&gt;下车，又走了很久的路，妈妈的疑惑像卡车驰过的尘烟一样升高。妈妈问姑娘：这地址没错？女儿嘴唇红扑扑的，挽起了袖子，拿手背擦汗：没错啊！&lt;/p&gt;&lt;p&gt;走过了一面工厂的围墙，前面是一条碎鱼鳞闪亮、半边蓝半边绿的河，河上有灰点和白点。细看来，蓝是天，绿是樟树，灰是鸭子，白是鹅。河旁边的石头，强壮的阿姨们蹲着，擦刷擦刷的洗衣服。再往前，是一片油绿泛黄的菜田，大片的狗尾巴草和喇叭花。妈妈和姑娘沿河走，远远看见一片平房木屋，这儿一排，那儿一排。墙是红砖砌，门是木框拦着，叉竿顶着窗，深油黄色。家门前晒着青豆，门框上挂着鱼。那时过了午，烟囱里灰青烟一片片。妈妈问姑娘：是哪家？姑娘正在想，耳朵被刺了一声：&lt;/p&gt;&lt;p&gt;阿姐！&lt;/p&gt;&lt;br&gt;&lt;p&gt;喊完这一声，一个矮小的身影从河旁树丛里窜出，在阳光下撒腿飞跑，一路踩着花和草，往木屋那去了。妈妈和姑娘正愣着，猛听见木屋前一声尖叫：妈，哥哥的女朋友来啦！说时迟那时快，一栋木屋里飞出一条青色人影，一道烟急速奔来。妈妈猛然觉得不对，一拉姑娘，一捂脸，转身就跑。耳听得背后呼呼风响，一道新生姜似的脆辣辣的声音喝道：&lt;/p&gt;&lt;p&gt;哎呀呀，阿姨你来啦！来得好啊！来得好！！&lt;/p&gt;&lt;br&gt;&lt;p&gt;很多年后，姑娘认为那段羞臊的路程，跑了准有几百里。耳边呼呼风响，时间无比漫长。但饶是如此，她和她妈妈还是被一双大手揪住了。她常问小伙子：你妈妈——一个青对襟衣服、黑布裤、黑布鞋、貌不惊人的妇女——哪能奔走如风、硬把她俩追上的，而且怀里还揣着五个煮鸡蛋？——一抓住她们，立刻把怀里帕子包的煮鸡蛋，硬塞到姑娘和妈妈手里：他去他姐夫家里，一会儿就回来。你们快来家坐坐！！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;乡下吃饭很早，黄昏没到，各家就在场院晒的青豆旁排开了饭桌，就像运河那些驳船人家。河塘里的鸭和鹅往家走。妇女们扯起嗓子，叫菜田、沙堆、井旁边乱跑乱叫、挖笋挖萝卜的孩子“快吃饭！！”小伙子的妈妈红着眼睛从灶间里出来，一再的抱歉：家里还是烧柴草的大炉灶，连煤球炉都没有，不好意思啊，让你们看笑话了……你们去看会儿电视机吧！黑白电视，声音倒是好的！&lt;/p&gt;&lt;p&gt;小伙子说：妈，你别管了！&lt;/p&gt;&lt;p&gt;小伙子的爸爸，那年刚过六十，耳朵已经听不大清了。他笑眯眯的把热好的黄酒斟给客人，笑眯眯的把炒好的花生放上饭桌，哑着嗓子嘎嘎笑两声，自己先喝了一口酒。头顶的樟树发出簌簌声。邻居纷纷大叫：好漂亮的女朋友啊！城里的女朋友啊！！有邻居就捧着饭碗拿着筷子，边扒拉青豆和鱼肉，边走过来跟姑娘问好，然后用脚轻踢小伙子的踝，挤挤眼睛，哈哈的笑。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;吃完饭后，夕阳还没下去，只是把线条抖落了，变成了一片甜软如黄酒的云。两个年轻人的妈妈一起聊着事，两个年轻人牵着手出去溜达。很多年后，他们对那天的细节把握不甚清楚，有时是这一种说法，有时是另一种说法。也许是他们都忘记了，也许是他们不想让我知道那天他们究竟说了什么。我从三十年后的现在，看那个一切尘埃落定的黄昏，他们的身影就融化在黄昏的光芒里，两个人都披着红烂烂的光，就像——那个报信的矮个子身影嚷嚷的——“新郎和新娘！”&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;我听到的一种说法是，小伙子就坐在河边，指点给那个姑娘看，说他小时候在这桥边捉癞蛤蟆，如何一口气捉了五六只；小时候在这河里淘米，如何掉进河里，被父母训了顿；小时候在这石头上坐着钓虾，钓了虾又是如何从机床厂墙洞里钻去，偷了起火的材料烤虾吃。小时候他怎么挖萝卜、挖菜根，如何用火烤花生，听见噼啪做响的声音，闻见那些香气。他说他要买一台日立电视机，要买一个五斗橱，要买一个沙发，上面放一张绣着孔雀的毯子；他说他要买一个茶几放在沙发旁，茶几上面放盆景。他说缝纫机最好放在床尾，底下可以堆衣柜。最后他认真的说：&lt;/p&gt;&lt;p&gt;将来如果有了孩子，可以叫张佳玮——玮这个字，是玉的意思。男的女的，都可以叫这个名字。&lt;/p&gt;&lt;br&gt;&lt;p&gt;我听到的一种说法是，听了这番话，姑娘感到整整二十四年以来，从所未有的害羞，从所未有的幸福。她觉得未来的生活被这么一描绘，烂漫如眼前所见的云锦夕阳。她被这种突如其来的幸福感吓了一跳，都来不及细思考儿子或女儿叫张佳玮有什么不妥，只是说：&lt;/p&gt;&lt;p&gt;啐，真是脸皮厚！&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;五年前的这会儿写的了。当时想写一个“那个时代的爱情故事”。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;写完这篇三年后，照这个扩写出了一篇《爱情故事》。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;读过的诸位大概知道：就是我前年8月在华东师大出版社出的那本了。&lt;/strong&gt;&lt;/p&gt;</textarea>
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/v2-821b5fa70d18f09fbd146164a1de12d7_200x112.jpg" data-rawwidth="1440" data-rawheight="1080" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-821b5fa70d18f09fbd146164a1de12d7_r.jpg">小伙子说，他是从乡下来的。姑娘上下打量，不太相信：小伙子个子不算高，和她差不多；容貌清秀，有点儿抬头纹，看着很机灵，穿件蓝衬衣，一条黑裤子。旁边一辆旧金狮牌自行车，也干干净净，就是左边的车把掉了。小伙子抬腕看了看手表，说要上班了。上车，一…
+
+<a href="https://zhuanlan.zhihu.com/p/26032089" class="toggle-expand">显示全部</a>
+
+</div>
+
+<p class="hidden-default"><a class="post-link entry-link" target="_blank" href="https://zhuanlan.zhihu.com/p/26032089">2017-03-27</a></p>
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta meta clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+
+<a data-follow="c:link" class="zg-follow meta-item js-followButton" href="#" id="cl-154"><i class="z-icon-follow"></i>关注专栏</a>
+
+<a href="#" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>185 条评论</a>
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+<span class="zg-bull zu-autohide">•</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+<span class="zg-bull">•</span>
+<a href=https://zhuanlan.zhihu.com/p/26032089 class="meta-item" target="_blank">去往文章页</a>
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="3">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-4
+ 
+"
+feed-item-a data-type="a"
+id="feed-4"
+>
+<meta itemprop="ZReactor" data-id="57183490" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 142, &quot;comments&quot;: 22, &quot;source&quot;: [[&quot;topic&quot;, 872]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="Python" data-hovercard="t$t$19552832"
+class="zm-item-link-avatar"
+href="/topic/19552832"
+target="_blank">
+<img src="https://pic1.zhimg.com/3111ec1cc_m.jpg" alt="Python" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19552832" data-hovercard="t$b$19552832" data-token="19552832" data-topicid="872" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">Python</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="57183490">
+<meta itemprop="answer-url-token" content="154098407">
+<h2 class="feed-title"><a class="question_link" href="/question/21471960/answer/154098407" target="_blank" data-id="769461" data-za-element-name="Title">
+Python 爬虫如何获取 JS 生成的 URL 和网页内容？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">想尝试爬下北邮人的论坛，但是看到页面的源...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+想尝试爬下北邮人的论坛，但是看到页面的源代码都是js，几乎没有我想要的信息。
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/21471960/answer/154098407">
+<!-- <meta itemprop="answer-id" content="57183490">
+<meta itemprop="answer-url-token" content="154098407"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>142</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">142</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$sgai"
+target="_blank" href="/people/sgai"
+>路人甲</a></span><span title="喜欢用 『 数据 』讲故事 / 同学，你想学习编程吗？" class="bio">
+喜欢用 『 数据 』讲故事 / 同学，你想学…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="142">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">142</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="769461" data-action="/answer/content" data-author-name="路人甲" data-entry-url="/question/21471960/answer/154098407">
+
+<textarea hidden class="content">&lt;p&gt;按照题主的描述有仔细看了下北邮人的论坛 ，此网站的所有网页内容请求的 url 应该都是可以通过抓包分析出来的。&lt;/p&gt;&lt;p&gt;比如说我们看下其中的一个优秀版主评选板块：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//bbs.byr.cn/%23%21bmvote/view/1&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;北邮人论坛-北邮人的温馨家园&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; ，使用Chrome的F12或者其他任何你比较熟悉的工具抓包，其他板块同理。&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-efaa567aa18a56f2dd82be92ba2b3803_b.png&quot; data-rawwidth=&quot;1877&quot; data-rawheight=&quot;945&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1877&quot; data-original=&quot;https://pic4.zhimg.com/v2-efaa567aa18a56f2dd82be92ba2b3803_r.png&quot;&gt;&lt;p&gt;把response里面的具体内容复制出来，查看分析，再使用正则之类的去匹配就可以了。&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-3e8bfb4a8503089771e4d561bbf7c8fa_b.png&quot; data-rawwidth=&quot;1530&quot; data-rawheight=&quot;942&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1530&quot; data-original=&quot;https://pic3.zhimg.com/v2-3e8bfb4a8503089771e4d561bbf7c8fa_r.png&quot;&gt;&lt;p&gt;但是这种可以通过抓包一步到位分析出来的是比较简单的，我也看到很多朋友的讨论已经不仅仅是局限于北邮人论坛，比如说某些网站的某个请求中的参数可能是JavaScript计算出来等情况。&lt;/p&gt;&lt;p&gt;比方说我们最常接触的网易云音乐，很多人表示网易云音乐的歌曲热门评论很难抓取，因为请求评论的数据的中的请求参数是经过JavaScript计算加密过的。&lt;/p&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-c2a3685cefa4b88a136f133e195776dd_b.png&quot; data-rawwidth=&quot;1920&quot; data-rawheight=&quot;950&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1920&quot; data-original=&quot;https://pic2.zhimg.com/v2-c2a3685cefa4b88a136f133e195776dd_r.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-cecc9eb779637a17648fb2e92160485c_b.png&quot; data-rawwidth=&quot;1920&quot; data-rawheight=&quot;950&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1920&quot; data-original=&quot;https://pic1.zhimg.com/v2-cecc9eb779637a17648fb2e92160485c_r.png&quot;&gt;&lt;p&gt;而对于这一类的网站，我们通常会有三种情况，对于这几种情况无疑都需要对网页请求的整个流程有比较好的把握，以及能比较有耐心的一层一层分析请求参数等等的来源。&lt;/p&gt;&lt;p&gt;首先按我们看上面的网易云音乐的请求评论数据的参数：&lt;b&gt;params &lt;/b&gt;和 &lt;b&gt;encSecKey&lt;/b&gt; ，同时在Name栏目可以清楚地看到处理该参数的 js 文件为 &lt;b&gt;core.js&lt;/b&gt;&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-13f5e61b534b2cbaf49255194d7b8364_b.png&quot; data-rawwidth=&quot;1075&quot; data-rawheight=&quot;761&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1075&quot; data-original=&quot;https://pic1.zhimg.com/v2-13f5e61b534b2cbaf49255194d7b8364_r.png&quot;&gt;&lt;p&gt;所以为了弄清楚两个参数的来源，我们把&lt;b&gt;core.js&lt;/b&gt;文件下载到本地，使用&lt;a href=&quot;//link.zhihu.com/?target=http%3A//tool.lu/js/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Javascript在线解压缩 - 在线工具&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; 解压缩，得到标准格式的JavaScript文件，搜索两个参数。&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-56eb8d6b3194ac3eda2f4e83c45bba74_b.png&quot; data-rawwidth=&quot;1381&quot; data-rawheight=&quot;807&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1381&quot; data-original=&quot;https://pic1.zhimg.com/v2-56eb8d6b3194ac3eda2f4e83c45bba74_r.png&quot;&gt;&lt;p&gt;我们会发现这两个参数来源于&lt;b&gt;window.asrsea&lt;/b&gt;的函数加密，&lt;b&gt;window.asrsea&lt;/b&gt;需要四个参数，为了弄清楚这四个参数的来源，我们可以改变本地&lt;b&gt;core.js&lt;/b&gt;代码，并用&lt;b&gt;fildder&lt;/b&gt;替换执行。&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-a70c887f82ec81c9d92ca69d9141c840_b.png&quot; data-rawwidth=&quot;1329&quot; data-rawheight=&quot;337&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1329&quot; data-original=&quot;https://pic1.zhimg.com/v2-a70c887f82ec81c9d92ca69d9141c840_r.png&quot;&gt;&lt;p&gt;替换之后查看Chrome中的console输出，查看四个参数的值信息，可以看出除了bl其他的几个参数都是固定的字符串值。再看bl值，bl 值由字典构成，总共有五个key值。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;rid：rid值由一个固定字符串R_SO_4_和歌曲的id构成&lt;/li&gt;&lt;li&gt;offset：表示当前是第几页的评论数据&lt;/li&gt;&lt;li&gt;total：固定值true&lt;/li&gt;&lt;li&gt;limit：每页显示多少个评论，默认20&lt;/li&gt;&lt;li&gt;csrf_token：无关可以为空&lt;/li&gt;&lt;/ul&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-1fec00c6681866fafc1f25d683c00771_b.png&quot; data-rawwidth=&quot;780&quot; data-rawheight=&quot;111&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;780&quot; data-original=&quot;https://pic2.zhimg.com/v2-1fec00c6681866fafc1f25d683c00771_r.png&quot;&gt;&lt;p&gt;我们知道了参数的来源，弄清楚函数的具体执行流程是什么，一切就豁然开朗了。追踪&lt;b&gt;window.asrsea&lt;/b&gt; 函数，找到如下内容，现在我们就弄明白了所有的流程了。&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-c5366564aaca814a664cc4ba51ccfa02_b.png&quot; data-rawwidth=&quot;962&quot; data-rawheight=&quot;700&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;962&quot; data-original=&quot;https://pic3.zhimg.com/v2-c5366564aaca814a664cc4ba51ccfa02_r.png&quot;&gt;&lt;p&gt;既然弄清楚了所有的JS加密流程下面就有几种方法去解决。&lt;/p&gt;&lt;p&gt;1、使用Python模拟&lt;/p&gt;&lt;p&gt;我正常采用的就是这种手段，先分析具体的JavaScript代码，再尝试用Python去模拟，不过这种选择需要你对Python相对比较熟悉。&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python3&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aesEncrypt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;pad&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pad&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;chr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;encryptor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AES&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;secKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'0102030405060708'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;ciphertext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encryptor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encrypt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;ciphertext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b64encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ciphertext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ciphertext&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;rsaEncrypt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pubKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;modulus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;rs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'hex'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pubKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;modulus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'x'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zfill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;createSecretKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ord&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urandom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、Python执行JavaScript代码&lt;/p&gt;&lt;p&gt;Python执行JavaScript代码，如果对Python不是很熟悉，建议采用这种方法，这种方法的可用第三方库比较多，研究了一些文档之后发现：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ScriptControl只能在windows上运行，需要win32com库&lt;/li&gt;&lt;li&gt;PyV8能在windows和*nix上运行，需要装PyV8库&lt;/li&gt;&lt;li&gt;SpiderMonkey是mozilla的js引擎在python上的移植。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;经评论区的朋友们提醒，自己也尝试使用了一下另外一个第三方库：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/PiotrDabkowski/Js2Py&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Js2Py&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;此第三方库不但可以执行JavaScript代码，甚至可以把JavaScript代码转换成Python代码，但是在此只推荐转换简单的JavaScript代码，这是一个转换的案例。&lt;/p&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-4391b9a7310271d1988e0ca4ee5d67dd_b.png&quot; data-rawwidth=&quot;1103&quot; data-rawheight=&quot;868&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1103&quot; data-original=&quot;https://pic2.zhimg.com/v2-4391b9a7310271d1988e0ca4ee5d67dd_r.png&quot;&gt;&lt;p&gt;由于网易云音乐的评论加密这一块涉及的函数相对较多，这里不推荐使用Python执行JavaScript代码。&lt;/p&gt;&lt;p&gt;3、最粗暴的方法&lt;/p&gt;&lt;p&gt;最粗暴的方法是使用selenium+phantomjs无界面浏览器，这两者的结合其实就是直接操作浏览器，可以获取JavaScript渲染后的页面数据。&lt;/p&gt;&lt;p&gt;这两者结合使用的缺点：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;由于是无界面浏览器，采用此方案效率极低，如果大批量抓取不推荐。&lt;/li&gt;&lt;li&gt;对于异步请求并且数据在源码中并不存在的，同时也就无法抓取到的数据。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;对这两个不了解可以查一下两者的官方文档，也可以读读这篇文章快都上手：&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.jianshu.com/p/520749be7377&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python爬虫的最佳实践(五)--selenium+PhantomJS&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;感觉不错也欢迎点赞支持。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/v2-efaa567aa18a56f2dd82be92ba2b3803_200x112.png" data-rawwidth="1877" data-rawheight="945" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-efaa567aa18a56f2dd82be92ba2b3803_r.png">
+按照题主的描述有仔细看了下北邮人的论坛 ，此网站的所有网页内容请求的 url 应该都是可以通过抓包分析出来的。比如说我们看下其中的一个优秀版主评选板块：<a href="//link.zhihu.com/?target=https%3A//bbs.byr.cn/%23%21bmvote/view/1" class=" wrap external" target="_blank" rel="nofollow noreferrer">北邮人论坛-北邮人的温馨家园<i class="icon-external"></i></a> ，使用Chrome的F12或者其他任何你比较熟悉的工具抓包，其他板块同理…
+
+<a href="/question/21471960/answer/154098407" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-03-28" target="_blank" href="/question/21471960/answer/154098407">编辑于 昨天 10:39</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-769461"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>22 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="4">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-5
+ 
+"
+feed-item-a data-type="a"
+id="feed-5"
+>
+<meta itemprop="ZReactor" data-id="54489842" data-meta="{&quot;source_type&quot;: &quot;member_voteup_answer&quot;, &quot;voteups&quot;: 9104, &quot;comments&quot;: 541, &quot;source&quot;: [[&quot;member&quot;, &quot;3f57db29df67b347e8fb57ccff20230e&quot;]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="Alina"
+data-hovercard="p$t$cello-jen-64-98"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/cello-jen-64-98">
+<img src="https://pic3.zhimg.com/22557441e908773c545513cb164866ba_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+<a data-hovercard="p$t$cello-jen-64-98" href="https://www.zhihu.com/people/cello-jen-64-98" target="_blank" class="zg-link author-link" title="Alina"
+>Alina</a> 赞同了回答
+
+<span class="zg-bull">•</span>
+<span class="time" data-timestamp="1490465341000">5 天前</span>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="54489842">
+<meta itemprop="answer-url-token" content="147390594">
+<h2 class="feed-title"><a class="question_link" href="/question/53815952/answer/147390594" target="_blank" data-id="13746212" data-za-element-name="Title">
+有什么笑话，就算你再难过一听也能笑出来？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">没想到这么多人回复，太热情啦……我回复不...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+没想到这么多人回复，太热情啦……我回复不来，就不一一回复哈……欢迎不开心的来这调节情绪，开心的来这快乐哈<br>有天去一家酒店见客户，见大厅有台新机器，写着：消毒洗手机。我想也没想，掏出手机就洗了——洗得还真干净。然后，手机就不能打了。 <br><br>晚上看电视，新闻里说某酒店一位客人用洗手机把手机洗了，于是，酒店方把“消毒洗手机”改叫“洗手消毒机”了。（来自天涯社区客户端）<br><br>哈哈，我再加一个。<br>小时候有次被老爸揍完后躺床上，刚好牙齿换牙拿手摇摇就出血了，往地下吐了两口血水，老爸进来看见吓呆了，我想起武侠片的情节，呻吟到：我估计不行了，真后悔来这世上… 老爸顿时抱着我跑去医院，一路哭……回来的时候，我被揍得真的后悔来这世上了……<br><br>镜像问题<a href="http://www.zhihu.com/question/56215797" class="internal"><span class="invisible">http://www.</span><span class="visible">zhihu.com/question/5621</span><span class="invisible">5797</span><span class="ellipsis"></span></a>
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/53815952/answer/147390594">
+<!-- <meta itemprop="answer-id" content="54489842">
+<meta itemprop="answer-url-token" content="147390594"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>9104</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">9104</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$xxoo123-72"
+target="_blank" href="/people/xxoo123-72"
+>等风起的高达</a></span><span title="人民警察一枚 三级心理咨询师 MPA在读" class="bio">
+人民警察一枚 三级心理咨询师 MPA在读
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="9104">
+
+
+
+<span class="voters text"><span class="user-block"><a data-hovercard="p$t$cello-jen-64-98" href="https://www.zhihu.com/people/cello-jen-64-98" target="_blank" class="zg-link author-link" title="Alina"
+>Alina</a></span>&nbsp;<a href="#" class="more text">等&nbsp;<span class="js-voteCount">9104</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="13746212" data-action="/answer/content" data-author-name="等风起的高达" data-entry-url="/question/53815952/answer/147390594">
+
+<textarea hidden class="content">来个警界段子 哈哈哈哈 红红火火恍恍惚惚&lt;br&gt;&lt;br&gt;基友岗前培训后分配到特警支队，头一次执行任务是一次民工讨薪聚众围堵政府闹事。&lt;br&gt;防暴特警出动，第一排盾牌，第二排警棍，第三排拿水枪。   &lt;br&gt;基友等新人在第四排负责喊话和摄像。 &lt;br&gt;开始喊话，领导让重点大学刚毕业的基友来喊，基友拿起喇叭开喊：“里面的人听着，你们已经被包围了！”......&lt;br&gt;支队长立马飞起来一脚踹翻了喊话的基友，一把抢过喇叭喊：“你们要相信党，相信政府!”&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-101a5e1fc00d030789ed3572f58fe328_b.jpg&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;366&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic1.zhimg.com/v2-101a5e1fc00d030789ed3572f58fe328_r.jpg&quot;&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/v2-101a5e1fc00d030789ed3572f58fe328_200x112.jpg" data-rawwidth="550" data-rawheight="366" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-101a5e1fc00d030789ed3572f58fe328_r.jpg">
+来个警界段子 哈哈哈哈 红红火火恍恍惚惚 基友岗前培训后分配到特警支队，头一次执行任务是一次民工讨薪聚众围堵政府闹事。 防暴特警出动，第一排盾牌，第二排警棍，第三排拿水枪。 基友等新人在第四排负责喊话和摄像。 开始喊话，领导让重点大学刚毕业的基…
+
+<a href="/question/53815952/answer/147390594" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-02-20" target="_blank" href="/question/53815952/answer/147390594">编辑于 2017-02-21</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-13746212"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>540 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="5">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-6
+ 
+"
+feed-item-a data-type="a"
+id="feed-6"
+>
+<meta itemprop="ZReactor" data-id="57214649" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 597, &quot;comments&quot;: 258, &quot;source&quot;: [[&quot;topic&quot;, 3324]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="经济学" data-hovercard="t$t$19560170"
+class="zm-item-link-avatar"
+href="/topic/19560170"
+target="_blank">
+<img src="https://pic4.zhimg.com/30ffc337a555a56877aebdab9c5042f7_m.jpg" alt="经济学" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19560170" data-hovercard="t$b$19560170" data-token="19560170" data-topicid="3324" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">经济学</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="57214649">
+<meta itemprop="answer-url-token" content="154175719">
+<h2 class="feed-title"><a class="question_link" href="/question/57719915/answer/154175719" target="_blank" data-id="15308947" data-za-element-name="Title">
+与国外新闻报道相比，为什么知乎用户对中国的经济前景更悲观？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">证据一：中国房价涨成这样，为何没有任何经...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+<p>证据一：<a href="https://www.zhihu.com/question/56339355" class="internal">中国房价涨成这样，为何没有任何经济危机的征兆？ - 知乎</a>， 前20个高票回答中，19个认为征兆已现。1个认为可能是金融危机，但不一定是经济危机。</p><p>证据二：google chinese economy（3/27/2017），排在前面的三十条新闻中， 排除源自中文媒体的新闻，总体上还是明显偏乐观。</p>
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/57719915/answer/154175719">
+<!-- <meta itemprop="answer-id" content="57214649">
+<meta itemprop="answer-url-token" content="154175719"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>597</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">597</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$zhi-zhi-wei-zhi-zhi-74-93"
+target="_blank" href="/people/zhi-zhi-wei-zhi-zhi-74-93"
+>知之为知之</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="597">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">597</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="15308947" data-action="/answer/content" data-author-name="知之为知之" data-entry-url="/question/57719915/answer/154175719">
+
+<textarea hidden class="content">&lt;p&gt;因为知乎用户在阶层，年龄，学历，地域上来统计，都是被收割得最惨的那群。&lt;/p&gt;&lt;br&gt;&lt;p&gt;80's和90's本科及以上学历是知乎深度用户中的主要组成。这个阶层在近几年的遭遇，也不用我多说，确实值得同情，但这个阶层的大部分人眼里，并没有真正占社会多数的底层。所以知乎的大部分用户会把自己归类为社会底层，可是从非财产性收入来看，实际上他们大部分属于1%-10%的阶层。&lt;/p&gt;&lt;br&gt;&lt;p&gt;这就是中国很奇怪的一点，1%都认为自己是社会底层 - 其原因就是制度构建的资源畸形集中社会。&lt;/p&gt;&lt;br&gt;&lt;p&gt;在美国前1%差不多就是家庭税前年收入50万美金，401k交满额的话，税后收入是32万美金。这个收入如果在休斯敦这种地方，可以轻松住豪宅开保时捷911的，即使在湾区中心地带，买个带游泳池的普通房子也是买得起的，当然车子一样可以开911。&lt;/p&gt;&lt;br&gt;&lt;p&gt;国内的话中国家庭金融调查的计算器显示2011年56万人民币可以排前1%，人均GDP为5432美金，2016年人均GDP为7871美金（你没看错，因为人民币汇率下跌，去年以美元计算的人均GDP是低于2015年的8028美金的），如果1%的收入和GDP增速一样，那么现在应该是81万多人民币，在公积金每月1247的情况下，81万多年收入税后收入是58.4万，实际上这个税前收入按汇率算接近12万美金，放到美国也已经达到家庭收入的前15%了。这种家庭收入，知乎还是有一些在一线城市大公司工作10年以上的双薪家庭能达到的。可是在北京学区房价过15万/平，一辆中配奔驰GLE 350是美国2倍多点的物价水平中，12万美金的收入实在是无法过上谈得上很有质量的生活。而知乎用户对国外中产的生活又比较了解了，毕竟大公司的出国机会很多，确实能实地的体验欧美中产的生活，这样他们很简单就会发现，在他们的家庭收入在汇率上已经达到了欧美中上中产的标准的情况下，却在衣食住行和教育上样样不如同收入的国外中产家庭。在完全看不到底下80%的人民的知乎用户的观念中，他们不算底层又算什么呢？&lt;/p&gt;&lt;br&gt;&lt;p&gt;所以，知乎用户必然悲观，这是人性决定的。&lt;/p&gt;&lt;br&gt;&lt;p&gt;=====================================================&lt;/p&gt;&lt;p&gt;鉴于有些回复认为国内一线城市的汇率计算购买力远超美国，我们不如在税，衣食住行和教育上一项项的对比下。&lt;/p&gt;&lt;br&gt;&lt;p&gt;税，$12万税前，加州的单薪3口之家，401k交满，税后$96,792。北京68500人民币月收入，公积金2551，税后48187人民币，税后年收入合84416美金，个税占了22.8%，缴纳公积金×2=$8934，共$93350，但我觉得中国还是双薪多，所以把工资除以2算，这样2人税后合计84185，但公积金翻倍了，达到了122400人民币，合美金17869，所以税后工资+公积金=$102054。基本上这个工资水平，中美两国的税后收入是持平的。&lt;/p&gt;&lt;br&gt;&lt;p&gt;衣，既然是中产，穿个ralph lauren或boss档次的是正常的，当季的商品国内是美国价位的1.5-2倍吧。Nike，Adidas倒是中美两国差不多价。&lt;/p&gt;&lt;br&gt;&lt;p&gt;食，超市买菜，海鲜美国便宜，肉类差不多，蔬菜水果国内便宜，当然美国樱桃橙子什么的国内贵很多倍。美国麦当劳巨无霸套餐7块多，中餐快餐也差不多这价。普通饭店15-35，高档点的50-70，这价位能吃到日本人做的寿司，正宗的港式海鲜和很不错的牛排了。再往上就得去米其林1星了，120/人的标准还是能吃到不少家的。国内麦当劳才26.5，美国1/2，普通饭店美国1/3，上海吃日本人握的寿司基本就和美国持平了，要上到米其林西餐，国内还是要比美国贵不少的。鉴于美国人均年食品消费2300左右，我把12万收入的家庭食品花销数字翻倍，美国3口之家算1万4一年，国内算7千一年，那么国内每年在吃上能少出$7000。&lt;/p&gt;&lt;br&gt;&lt;p&gt;住，我用大洛杉矶的尔湾来对比北京海淀。尔湾是美国20万人口以上最安全的城市，美国宜居城市排名也很靠前，亚裔36.5%，亚裔大多是华人。尔湾联合学区加州第5（前面4个加一起人口没它多），尔湾学区的高中生申请泰晤士世界排名第10的UC伯克利和第14的UCLA录取率在20%左右，而北京户籍的学生北大（29位）和清华（35位）加一起录取率也没到1%。尔湾当前房屋中间价是$899000（全美平均$195,700的4倍多，&lt;b&gt;也高于湾区圣何塞的中间价 $780,000 &lt;/b&gt;），$453/平方英尺，合人民币3.3万/平米，加州房产税基本等于房屋价格的1%（退休后减半），那么加50年房产税算，每平合人民币5万。尔湾房屋中值面积是184平米，这面积不包括室内车库和院子，也不存在公摊，而且尔湾房子大都是房龄很低的独栋屋或联体别墅，新买到的房室内装修及厨房是都具备的。北京海淀的话，学区房均价应该到10万了吧，房屋质量大家心知肚明。那么照184平算，海淀一套房要比尔湾多出920万人民币，合134万美金，按30年还清吧，不算利息，每年比美国多花4.5万美金而已。&lt;/p&gt;&lt;br&gt;&lt;p&gt;行，中配宝马X5或奔驰GLE 350算是LA这边华人中产的典型用车，出门6万多美金，国内出门差不多90万吧，基本就是贵一倍。美国家庭肯定有两辆车，平均7年换一次车。这样算下来，每年国内在车上花销要比美国多2万不到。&lt;/p&gt;&lt;br&gt;&lt;p&gt;教育，美国小学到高中公立免费，尔湾好的公立读起来一点问题没有，大学UC伯克利是1.4万每年，UCLA是1.3万每年，$12万的家庭收入基本上是拿不到多少financial aid的，所以5万多的学费是要的。而国内清华北大也就5千多一年的学费，4年大学加高中不会过5000美金。学费国内倒是只有美国1/10不到，但考虑到顶尖大学尔湾录取概率大海淀10倍左右，性价比好像也差不多。&lt;/p&gt;&lt;br&gt;&lt;p&gt;看完这些，还有觉得国内一线城市的同汇率收入的购买力高于美国的吗？当然，如果是20万人民币以下的收入，国内的花销是比美国要少，但这种收入根本消费不起美国中产使用的品牌啊，你们难道没考虑过这个吗？&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+因为知乎用户在阶层，年龄，学历，地域上来统计，都是被收割得最惨的那群。 80's和90's本科及以上学历是知乎深度用户中的主要组成。这个阶层在近几年的遭遇，也不用我多说，确实值得同情，但这个阶层的大部分人眼里，并没有真正占社会多数的底层。所以知乎…
+
+<a href="/question/57719915/answer/154175719" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 10:13" target="_blank" href="/question/57719915/answer/154175719">编辑于 19:29</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-15308947"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>257 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="6">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-7
+ 
+"
+feed-item-a data-type="a"
+id="feed-7"
+>
+<meta itemprop="ZReactor" data-id="56888193" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 540, &quot;comments&quot;: 105, &quot;source&quot;: [[&quot;topic&quot;, 99]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="互联网" data-hovercard="t$t$19550517"
+class="zm-item-link-avatar"
+href="/topic/19550517"
+target="_blank">
+<img src="https://pic4.zhimg.com/f07808da5625fef3607f8b75b770349f_m.jpg" alt="互联网" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19550517" data-hovercard="t$b$19550517" data-token="19550517" data-topicid="99" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">互联网</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="56888193">
+<meta itemprop="answer-url-token" content="153364382">
+<h2 class="feed-title"><a class="question_link" href="/question/57406847/answer/153364382" target="_blank" data-id="15183335" data-za-element-name="Title">
+如何看待网易云音乐摘选的乐评印满杭州地铁 1 号线？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">新闻链接：http://m.admin5...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+新闻链接：<a href="//link.zhihu.com/?target=http%3A//m.admin5.com/article/20170323/728859.shtml" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">m.admin5.com/article/20</span><span class="invisible">170323/728859.shtml</span><span class="ellipsis"></span><i class="icon-external"></i></a>
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/57406847/answer/153364382">
+<!-- <meta itemprop="answer-id" content="56888193">
+<meta itemprop="answer-url-token" content="153364382"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>540</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">540</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$hao-qi-xin-ri-bao"
+target="_blank" href="/org/hao-qi-xin-ri-bao"
+>好奇心日报</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的机构"></span></span><span title="好奇驱动你的世界" class="bio">
+好奇驱动你的世界
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="540">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">540</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="15183335" data-action="/answer/content" data-author-name="好奇心日报" data-entry-url="/question/57406847/answer/153364382">
+
+<textarea hidden class="content">&lt;p&gt;3 月 20 日，网易云音乐和杭港地铁合作发起了一个快闪营销《看见音乐的力量》，把网易云音乐用户的音乐评论搬到了地铁站。&lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-71108e1acb0bbb9af64ae422250c211b_b.jpg&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;533&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/v2-71108e1acb0bbb9af64ae422250c211b_r.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-39a963afc1936b921e69b09793908bd5_b.jpg&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;533&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic2.zhimg.com/v2-39a963afc1936b921e69b09793908bd5_r.jpg&quot;&gt;&lt;p&gt;这场被刷屏的地铁营销，没花多少钱，也没找广告公司代理。这个创意源自网易云音乐副总裁李茵，一天晚上她刷了一个多小时的网易云音乐评论区，突然萌生了推出“乐评专列”的想法。李茵和工作团队从 4 亿网易云音乐乐评中提取点赞数最高的 5000 条，再人工筛选出来 85 条评论印在海报上。&lt;/p&gt;&lt;p&gt;附上若干入选的用户原创乐评，确实句句戳中人心，不给广告人留活路。&lt;/p&gt;&lt;p&gt;1、谢谢你陪我校服到礼服。&lt;/p&gt;&lt;p&gt;2、周杰伦把爱情比喻成龙卷风，我觉得特别贴切。因为很多人，像我。一辈子都没见过龙卷风。&lt;/p&gt;&lt;p&gt;3、喜欢这种东西，捂住嘴巴，也会从眼睛里跑出来&lt;/p&gt;&lt;p&gt;4、请在对不起中加两个字使其更加悲伤——“对三，要不起”&lt;/p&gt;&lt;p&gt;5、现在纯种的杀马特越来越少了，一定要顽强的活下去啊！不要让白发人送赤橙黄绿青蓝紫发人啊！&lt;/p&gt;&lt;p&gt;6、我离天空最近的一次，是你把我高高地举过了你的肩头。&lt;/p&gt;&lt;p&gt;7、别人稍一注意你，你就敞开心扉，你觉得这是坦率，其实这是孤独……&lt;/p&gt;&lt;p&gt;8、我已经过了餐桌上有只鸡就一定能吃到鸡腿的年纪了。&lt;/p&gt;&lt;p&gt;9、想对早起的室友说，丑八怪啊啊啊，能否别把灯打开&lt;/p&gt;&lt;p&gt;10、祝你们幸福是假的，祝你幸福是真的。&lt;/p&gt;&lt;p&gt;11、马上就要结束一年的单身生活，开始新一年的单身生活啦&lt;/p&gt;&lt;p&gt;根据网易云音乐的工作团队的说法，地铁是城市化的产物，它不只是一种交通工具，更与“奋斗的疲惫和孤独”的感受连在一起的。作为一个相对封闭的空间，在地铁车厢内人的注意力容易集中，情绪传染也会加速。总部位于杭州的网易云音乐选择和杭港地铁合作，也是因为杭州地铁每年都会策划创意类相关事件，今年杭州地铁的传播需求刚好有“春天、音乐”的主题，双方一拍即合。&lt;/p&gt;&lt;p&gt;而网易云音乐的评论区，一直是一个奇异的存在。很多用户都养成了“听音乐，逛评论”的习惯。根据企鹅智酷的报告，只有 5% 的人会在听音乐的时候看评论，这是非常小众的一个需求。而网易云音乐的产品负责人王诗沐透露，在云音乐这个数据是 30%。&lt;/p&gt;&lt;p&gt;2015 年朴树发布新歌《在木星》的时候，曾有媒体对比了几家音乐网站的评论数，在同一时间内：网易云音乐该歌曲评论数达 7100 多条，虾米音乐 2300 多条，豆瓣音乐 640 多条。从横向比较来看，网易云音乐评论活跃度遥遥领先，还有人专门整理了评论过万的歌曲歌单。&lt;/p&gt;&lt;p&gt;据说网易云音乐评论数量最多的一首歌是周杰伦的《晴天》，达到了惊人的 130 多万，赞数最多的评论有 27 万多 &lt;/p&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-9a38ba674b19bac5c96ac6f977a82adb_b.jpg&quot; data-rawwidth=&quot;719&quot; data-rawheight=&quot;1280&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;719&quot; data-original=&quot;https://pic4.zhimg.com/v2-9a38ba674b19bac5c96ac6f977a82adb_r.jpg&quot;&gt;&lt;br&gt;&lt;p&gt;高产的用户评论基于庞大的用户体量，根据网易云音乐最新提供的数据，目前云音乐用户量已经超过 2 亿，在近四年的发展中，日均产生 64 万条评论，已经积累了 4 亿条乐评。&lt;/p&gt;&lt;p&gt;在知乎用户算了一笔账，如果以 10%-20% 的评论概率计算，差不多每 1 万浏览量就有 100 个左右评论，其他互联网产品，例如 QQ 空间的曝光和评论占比也差不多。如果一首歌的播放量有 10 万，那么 999+ 的评论数量还是很正常的。&lt;/p&gt;&lt;p&gt;这个活动在社交网络刷屏后，很多网友关心会不会推广到其他城市，会不会整理一本乐评集，对此网易云音乐表示正在讨论中。不过可以肯定的是，正在全力加码社交属性的网易云音乐还会围绕用户乐评继续在线上线下做推广。而作为产品的重要卖点之一，这个主意倒是比较讨巧。&lt;/p&gt;&lt;p&gt;不过在最近发布的网易云音乐 4.0 版中，首次推出了短视频功能，这在移动在线音乐平台中还属于头一个，在用户中也引发了大量的讨论。&lt;/p&gt;&lt;p&gt;但跟帖，和做社交还是差别挺大的吧。&lt;/p&gt;&lt;p&gt;题图来源：网易云音乐&lt;/p&gt;&lt;p&gt;（原文首发于&lt;a href=&quot;//link.zhihu.com/?target=https%3A//m.qdaily.com/mobile/downloads.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;好奇心日报&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，更多精彩请&lt;a href=&quot;//link.zhihu.com/?target=https%3A//m.qdaily.com/mobile/downloads.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;下载&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;阅读。作者：宣海伦 原文链接：&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.qdaily.com/articles/39113.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;网易云音乐把用户评论搬上了杭州地铁，这点子谁出的？&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;）&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/v2-71108e1acb0bbb9af64ae422250c211b_200x112.jpg" data-rawwidth="800" data-rawheight="533" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-71108e1acb0bbb9af64ae422250c211b_r.jpg">
+3 月 20 日，网易云音乐和杭港地铁合作发起了一个快闪营销《看见音乐的力量》，把网易云音乐用户的音乐评论搬到了地铁站。 这场被刷屏的地铁营销，没花多少钱，也没找广告公司代理。这个创意源自网易云音乐副总裁李茵，一天晚上她刷了一个多小时的网易云音…
+
+<a href="/question/57406847/answer/153364382" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-03-24" target="_blank" href="/question/57406847/answer/153364382">编辑于 2017-03-24</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-15183335"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>104 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/v2-77841da6e1ad2521770ccaba6140da33_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="7">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-8
+ 
+"
+feed-item-a data-type="a"
+id="feed-8"
+>
+<meta itemprop="ZReactor" data-id="57183277" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 19, &quot;comments&quot;: 4, &quot;source&quot;: [[&quot;topic&quot;, 4887]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="财务" data-hovercard="t$t$19564876"
+class="zm-item-link-avatar"
+href="/topic/19564876"
+target="_blank">
+<img src="https://pic1.zhimg.com/a240a363b7d7e0681502017c57b0ba20_m.jpg" alt="财务" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19564876" data-hovercard="t$b$19564876" data-token="19564876" data-topicid="4887" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">财务</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="57183277">
+<meta itemprop="answer-url-token" content="154097872">
+<h2 class="feed-title"><a class="question_link" href="/question/53908894/answer/154097872" target="_blank" data-id="13783485" data-za-element-name="Title">
+亏损 62 亿的美图秀秀为啥能上市？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">12月15日美图秀秀在香港上市。美图也成...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+12月15日<strong>美图秀秀</strong>在香港上市。美图也成为继腾讯之后，<strong>在港上市的最大的互联网企业</strong>。上市的背后是其傲人的数据：<strong>4.46亿</strong>的<strong>月活跃用户</strong>，放在全世界的互联网公司里都可以排得上号。为什么这样的一家独角兽企业能诞生并茁壮成长？美图的成功，又将给中国创业者何种启示？
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/53908894/answer/154097872">
+<!-- <meta itemprop="answer-id" content="57183277">
+<meta itemprop="answer-url-token" content="154097872"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>19</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">19</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$lfcbird"
+target="_blank" href="/people/lfcbird"
+>冰河洗剑</a></span><span title="金融行业/资深投资经理/旅行爱好者" class="bio">
+金融行业/资深投资经理/旅行爱好者
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="19">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">19</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="13783485" data-action="/answer/content" data-author-name="冰河洗剑" data-entry-url="/question/53908894/answer/154097872">
+
+<textarea hidden class="content">&lt;p&gt; 有一些高票回答没回答到点上，其实就是&lt;b&gt;因为香港联交所没有要求企业必须盈利才能上市呀！&lt;/b&gt;&lt;/p&gt;&lt;p&gt;美图秀秀是在香港主板上市，直接上香港联交所主板上市的要求：&lt;/p&gt;&lt;p&gt;主板新申請人須具備不少於3個財政年度的營業記錄，並須符合下列&lt;b&gt;三項財務準則其中一項：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1、&lt;/b&gt; &lt;b&gt;盈利测试：&lt;/b&gt;股東應佔盈利過去三個財政年度至少5,000萬港元 (最近一年盈利至少2,000萬盈利，及前兩年累計盈利至少3,000 萬港元，市值上市時至少達2億港元。&lt;/p&gt;&lt;p&gt;&lt;b&gt; 2、市值/ 收入測試：市值上市時至少達40億港元，收入最近一個經審計財政年度至少5億港元。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3、市值/ 收入/ 現金流量測試：&lt;/b&gt;市值上市時至少達20億港元，收入最近一個經審計財政年度至少5億港元，現金流量前3個財政年度來自營運業務的現金流入合計至少1億港元。&lt;/p&gt;&lt;p&gt;官网链接： &lt;u&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.hkex.com.hk/chi/listing/listreq_pro/listreq/equities_c.htm&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;hkex.com.hk/chi/listing&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;/listreq_pro/listreq/equities_c.htm&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/u&gt; &lt;/p&gt;&lt;h2&gt;&lt;b&gt;注意是满足其中一项即可！&lt;/b&gt;从上面三项中可以看到，&lt;b&gt;第二项市值/ 收入测试美图秀秀肯定是达标了。&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;其实在港股上市相对A股真的不是很难，你看看港股有多少多年无人问津的仙股就知道了，&lt;/b&gt;香港作为一个成熟的证券市场，投资人&lt;b&gt;以机构投资者为主&lt;/b&gt;，香港联交所对IPO审核是备案制，假设你是有投资能力的投资者，不设涨跌停板限制，一切投资自负盈亏。港股的优质大公司更受到投资者（这个市场主要是境外机构投资者）的青睐，估值普遍要高于中小企业。&lt;/p&gt;&lt;p&gt;而A股现在实行的是IPO核准制，证监会会对企业进行实质性审查，上市要求也要高于港股（所以在A股打新只要能中签基本都是赚钱的，A股的壳资源也是题材概念之一），不过从趋势来看，IPO实行注册制是大势所趋，到时候越来越多的企业轻松上市，就更需要投资者自己甄别风险了。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+有一些高票回答没回答到点上，其实就是<b>因为香港联交所没有要求企业必须盈利才能上市呀！</b>美图秀秀是在香港主板上市，直接上香港联交所主板上市的要求：主板新申請人須具備不少於3個財政年度的營業記錄，並須符合下列<b>三項財務準則其中一項：</b><b>1、</b> <b>盈利测试：</b>股…
+
+<a href="/question/53908894/answer/154097872" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/53908894/answer/154097872">发布于 2017-03-28</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-13783485"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>4 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/v2-67c76074a3801134509dcba3e1b50dda_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=154097872" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="8">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-9
+ 
+"
+feed-item-a data-type="a"
+id="feed-9"
+>
+<meta itemprop="ZReactor" data-id="56678380" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 45, &quot;comments&quot;: 44, &quot;source&quot;: [[&quot;topic&quot;, 81774]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="数值模拟" data-hovercard="t$t$19794128"
+class="zm-item-link-avatar"
+href="/topic/19794128"
+target="_blank">
+<img src="https://pic1.zhimg.com/e82bab09c_m.jpg" alt="数值模拟" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19794128" data-hovercard="t$b$19794128" data-token="19794128" data-topicid="81774" data-follow="1" data-interest="1" target="_blank" data-za-element-name="Title">数值模拟</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="56678380">
+<meta itemprop="answer-url-token" content="152842561">
+<h2 class="feed-title"><a class="question_link" href="/question/57380679/answer/152842561" target="_blank" data-id="15172813" data-za-element-name="Title">
+用数值模拟行星运动，很难得到稳定解？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">我在看《费曼物理学讲义（第1卷）》（新千...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+我在看《费曼物理学讲义（第1卷）》（新千年版），第9章牛顿动力学定律，用弹簧运动和行星运动作为例子，还给出了数值解法。感觉费曼好超前，在那个还没有PC的年代，就跟学生讲用计算机解决问题。我自己用python试了一下，本来跟书上一样的，后来我想增加计算步数试一试，结果一试发现随着步数的增加，行星的运动轨迹是一个比一个大的椭圆，相差很明显。请问这是书中给定的初始条件的原因还是因为这是数值模拟？像真实的行星运动那样的持续四十多亿年的条件是不是很难找？谢谢。<br>程序字数超了，放链接吧： <a href="//link.zhihu.com/?target=https%3A//github.com/zwdnet/zhihuask/blob/master/9-7.py" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">https://</span><span class="visible">github.com/zwdnet/zhihu</span><span class="invisible">ask/blob/master/9-7.py</span><span class="ellipsis"></span><i class="icon-external"></i></a><br><img src="https://pic3.zhimg.com/v2-e07918bfb12cf252324eaee209ae5012_b.png" data-rawwidth="800" data-rawheight="595" class="origin_image zh-lightbox-thumb" data-original="https://pic3.zhimg.com/v2-e07918bfb12cf252324eaee209ae5012_r.png"><img src="https://pic1.zhimg.com/v2-28b09c4e5a3cfe4401d818e91f75dda4_b.png" data-rawwidth="800" data-rawheight="595" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-28b09c4e5a3cfe4401d818e91f75dda4_r.png"><br><img src="https://pic3.zhimg.com/v2-cdfe16f8700ebc91dc357e64a3d0761a_b.png" data-rawwidth="800" data-rawheight="595" class="origin_image zh-lightbox-thumb" data-original="https://pic3.zhimg.com/v2-cdfe16f8700ebc91dc357e64a3d0761a_r.png">
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/57380679/answer/152842561">
+<!-- <meta itemprop="answer-id" content="56678380">
+<meta itemprop="answer-url-token" content="152842561"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>45</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">45</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+<span class="name">匿名用户</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="45">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">45</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="15172813" data-action="/answer/content" data-author-name="匿名用户" data-entry-url="/question/57380679/answer/152842561">
+
+<textarea hidden class="content">&lt;p&gt;首先，感谢大家的对这个答案的支持。&lt;/p&gt;&lt;p&gt;但是&lt;b&gt;很惭愧&lt;/b&gt;，&lt;b&gt;我&lt;/b&gt;没有弄清稳态的本质，也就是&lt;b&gt;回答偏了&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;题主问题的&lt;b&gt;根本原因&lt;/b&gt;，应该是 @&lt;b&gt;&lt;a href=&quot;https://www.zhihu.com/people/compiler&quot; class=&quot;internal&quot;&gt;浪客&lt;/a&gt;&lt;/b&gt;所说的“ 长期模拟行星运动&lt;b&gt;要用专门设计的保能量的辛算法&lt;/b&gt;。&lt;b&gt;常规的算法会导致能量累积或衰减&lt;/b&gt;，高阶龙格库塔或者隐式方法只是误差累积的慢一些。”&lt;/p&gt;&lt;p&gt;我专门查了一点相关文献，的确如此。&lt;/p&gt;&lt;p&gt;题主&lt;b&gt;问题中的稳定性&lt;/b&gt;，应该是指的“&lt;b&gt;不出现随着时间一直累积的数值计算误差&lt;/b&gt;”，这个跟微分方程数值求解过程本身的稳定性，是两个不同的概念。&lt;/p&gt;&lt;p&gt;这里也非常感谢@ &lt;a href=&quot;https://www.zhihu.com/people/sun-ao-74&quot; class=&quot;internal&quot;&gt;Sun AO&lt;/a&gt;，@KL Hahns等知友对我答案的指正。&lt;/p&gt;&lt;br&gt;&lt;p&gt;下面是原答案，请大家随便看看就好——因为答偏了。&lt;/p&gt;&lt;p&gt;#####################     &lt;b&gt;原答案&lt;/b&gt;     #######################&lt;/p&gt;&lt;p&gt;个人也认为主要是问题出在所选用的数值算法上，比如，时间步长不够小。&lt;/p&gt;&lt;br&gt;&lt;p&gt;说来也奇怪，我们国家的数值分析类的课程，对微分方程的隐式数值算法介绍的相当不够，相关内容老旧，N年不换，导致遇到实际应用的时候，例如，比较刚性的微分方程(组)，经常很难或者无法成功数值求解。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;隐式算法&lt;/b&gt;对数值求解&lt;b&gt;稳定性方面很有优势&lt;/b&gt;，也可以&lt;b&gt;控制求解精度&lt;/b&gt;，同时，可以进行&lt;b&gt;变步长计算&lt;/b&gt;(在要求的精度下)，以&lt;b&gt;节约求解时间&lt;/b&gt;。&lt;/p&gt;&lt;br&gt;&lt;p&gt;如上面的知友所述，可以考虑隐式欧拉法。隐式欧拉法是最简单的隐式常微分方程(组)算法，但需要利用牛顿法等迭代求解非线性方程(组)。题主有兴趣可以搜搜相关文献和程序。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;数值计算方法的重要性&lt;/b&gt;，其实&lt;b&gt;远超大部分科学和工程技术人员的想象&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;#####################     &lt;b&gt;原答案&lt;/b&gt;     #######################&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+首先，感谢大家的对这个答案的支持。但是<b>很惭愧</b>，<b>我</b>没有弄清稳态的本质，也就是<b>回答偏了</b>。题主问题的<b>根本原因</b>，应该是 @<b><a href="https://www.zhihu.com/people/compiler" class="internal">浪客</a></b>所说的“ 长期模拟行星运动<b>要用专门设计的保能量的辛算法</b>。<b>常规的算法会导致能量累积或衰减</b>，高阶龙格库塔或者隐式方法只是误差累…
+
+<a href="/question/57380679/answer/152842561" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-03-21" target="_blank" href="/question/57380679/answer/152842561">编辑于 2017-03-23</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-15172813"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>44 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="9">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+
+</div>
+<a href="javascript:;" id="zh-load-more" data-method="next" class="zg-btn-white zg-r3px zu-button-more" style="display:none">更多</a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<div class="shameimaru-placeholder" data-loc="home_up" data-params='{}'></div>
+
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="zm-side-nav-group">
+<ul class="zm-side-nav" id="zg-sidebar-nav">
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link" href="/collections" data-za-c="collection" data-za-l="sidebar_collections" data-za-a="visit_collections">
+<i class="zg-icon zg-icon-sidenav-fav"></i>
+我的收藏
+
+</a>
+</li>
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link" href="/question/following">
+<i class="zg-icon zg-icon-sidenav-follow"></i>
+我关注的问题
+</a>
+</li>
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link" href="/question/invited">
+<i class="zg-icon zg-icon-sidenav-invite"></i>
+邀请我回答的问题
+
+</a>
+</li>
+
+
+
+</ul>
+</div>
+<div class="zm-side-nav-group">
+<ul class="zm-side-nav">
+
+
+<li class="zm-side-nav-li rq3-publiceditlink" id="rq3-sidenav-link">
+<a class="zm-side-nav-link" href="/watch">
+<i class="zg-icon zg-icon-sidenav-publicedit"></i>
+公共编辑动态
+<span class="zg-num hidden">0</span>
+</a>
+</li>
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link z-ico-container" href="/community">
+<i class="z-ico-community"></i>
+社区服务中心
+</a>
+</li>
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link z-ico-container" href="/copyright">
+<i class="zg-icon icon icon-copyright"></i>
+版权服务中心
+</a>
+</li>
+
+
+</ul>
+</div>
+
+
+
+</div>
+</div>
+<div class="SidebarSection SidebarListNav zm-side-my-columns">
+<h3>知乎专栏</h3>
+
+<ul class="column-homepage zm-side-nav column-empty">
+<li class="zm-side-nav-li">
+<a class="column-homepage-link column-link zm-side-nav-link" href="http://zhuanlan.zhihu.com/" target="_blank">
+<i class="icon-column-logo sprite-sidebar-icon-column-normal"></i>
+<span class="name">专栏・发现</span>
+</a>
+</li>
+</ul>
+<ul class="zm-side-nav column-list">
+
+</ul>
+<script id="SidebarColumnItem-template" type="text/template">
+
+</script>
+<ul class="zm-side-nav">
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav SidebarListNav--noFollowLink">
+<h3><a href="https://www.zhihu.com/lives" class="SidebarListNav-sideLink Link--light" target="_blank">查看全部 &raquo;</a>知乎 Live ⚡️</h3>
+<ul class="SidebarListNav-list">
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="https://www.zhihu.com/lives/819955050595110912" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://pic2.zhimg.com/f8530e8b2ca7784285689ab7d33ec1cd_s.jpg" srcset="https://pic2.zhimg.com/f8530e8b2ca7784285689ab7d33ec1cd_xs.jpg 2x" alt="人人都应该知道的数据分析" />
+<span class="SidebarListNav-label">
+人人都应该知道的数据分析
+</span>
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="https://www.zhihu.com/lives/822768722698698752" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://pic2.zhimg.com/4bae5257d_s.jpg" srcset="https://pic2.zhimg.com/4bae5257d_xs.jpg 2x" alt="做好时间管理，找到隐藏的加薪机会" />
+<span class="SidebarListNav-label">
+做好时间管理，找到隐藏的加薪机会
+</span>
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="https://www.zhihu.com/lives/822802284479143936" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://pic4.zhimg.com/ba4b64e46a58c9f7247b5f79b55de3db_s.jpg" srcset="https://pic4.zhimg.com/ba4b64e46a58c9f7247b5f79b55de3db_xs.jpg 2x" alt="你的睡眠还好吗" />
+<span class="SidebarListNav-label">
+你的睡眠还好吗
+</span>
+</a>
+</li>
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav js-sidebarRoundtable">
+<h3><a href="/roundtable" class="SidebarListNav-sideLink Link--light">查看全部 &raquo;</a>知乎圆桌</h3>
+<ul class="SidebarListNav-list">
+
+<li class="SidebarListNav-listItem">
+
+<a data-follow="rt:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-jiqiganzhi"><i class="z-icon-follow"></i>关注圆桌</a>
+
+<a class="SidebarListNav-itemLink" href="/roundtable/jiqiganzhi">
+<img class="Avatar SidebarListNav-avatar" src="https://pic2.zhimg.com/v2-4b627048c9bc0f962aae11430bb3ac69_s.jpg" srcset="https://pic2.zhimg.com/v2-4b627048c9bc0f962aae11430bb3ac69_xs.jpg 2x" alt="人工智能 · 机器感知" data-hovercard="r$b$jiqiganzhi" />
+<span class="SidebarListNav-label" data-hovercard="r$b$jiqiganzhi">
+人工智能 · 机器感知
+</span>
+
+<span class="SidebarListNav-hint SidebarListNav-hint--hoverHidden">还有 7 天结束</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+
+<a data-follow="rt:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-fanyule"><i class="z-icon-follow"></i>关注圆桌</a>
+
+<a class="SidebarListNav-itemLink" href="/roundtable/fanyule">
+<img class="Avatar SidebarListNav-avatar" src="https://pic2.zhimg.com/v2-8ab4dc5fc483d10af4fecff42c8728b5_s.jpg" srcset="https://pic2.zhimg.com/v2-8ab4dc5fc483d10af4fecff42c8728b5_xs.jpg 2x" alt="创意者经济" data-hovercard="r$b$fanyule" />
+<span class="SidebarListNav-label" data-hovercard="r$b$fanyule">
+创意者经济
+</span>
+
+<span class="SidebarListNav-hint SidebarListNav-hint--hoverHidden">还有 15 小时结束</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+
+<a data-follow="rt:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-maiche01"><i class="z-icon-follow"></i>关注圆桌</a>
+
+<a class="SidebarListNav-itemLink" href="/roundtable/maiche01">
+<img class="Avatar SidebarListNav-avatar" src="https://pic4.zhimg.com/v2-17bc6c52ff49a936913a99733cc37793_s.jpg" srcset="https://pic4.zhimg.com/v2-17bc6c52ff49a936913a99733cc37793_xs.jpg 2x" alt="好好开车 · 购车指南" data-hovercard="r$b$maiche01" />
+<span class="SidebarListNav-label" data-hovercard="r$b$maiche01">
+好好开车 · 购车指南
+</span>
+
+<span class="SidebarListNav-hint SidebarListNav-hint--hoverHidden">还有 1 天结束</span>
+
+</a>
+</li>
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav">
+<h3><a href="/pub/" class="SidebarListNav-sideLink Link--light" target="_blank">查看全部 &raquo;</a>知乎书店</h3>
+<ul class="SidebarListNav-list">
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="/publications/weekly/119554255" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://static.zhihu.com/static/revved/img/ebooks/weekly.65279d61.png"
+srcset="https://static.zhihu.com/static/revved/img/ebooks/weekly@2x.78fb79ac.png">
+<span class="SidebarListNav-label">
+走，带你轻松户外游
+</span>
+
+<span class="SidebarListNav-hint">新上架</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="/publications/hour/119554252" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://static.zhihu.com/static/revved/img/ebooks/hour.3d371c99.png"
+srcset="https://static.zhihu.com/static/revved/img/ebooks/hour@2x.f5499fd8.png">
+<span class="SidebarListNav-label">
+设计一个家：你的第一本装修指南
+</span>
+
+<span class="SidebarListNav-hint">新上架</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="/publications/nacl/119554120" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://static.zhihu.com/static/revved/img/ebooks/nacl.656ec1c4.png"
+srcset="https://static.zhihu.com/static/revved/img/ebooks/nacl@2x.b5f3a720.png">
+<span class="SidebarListNav-label">
+刑事辩护指导书
+</span>
+
+</a>
+</li>
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav">
+<ul class="SidebarListNav-list">
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink DownloadApp-link" href="#">
+<i class="SidebarListNav-avatar sprite-sidebar-icon-zhi"></i>
+<span class="SidebarListNav-label">
+下载 App
+</span>
+</a>
+</li>
+</ul>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="home_bottom" data-params='{}'></div>
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/question/19581624" target="_blank">知乎指南</a></li>
+<li><a href="javascript:;" id="js-feedback-button">建议反馈</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2017 知乎</span>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{"exclusive-popover":{},"section":{},"editor":[]}</script>
+<script type="text/json" class="json-inline" data-name="current_user">["ghq","ghq-71","https:\/\/pic1.zhimg.com\/da8e974dc_s.jpg","cf26f15e9707c1dcc8477d82d978c042","lol\u804c\u4e1a\u9009\u624b",0,0,true,null,"",0,false,false,false,"615836280421093376",false,false,false,true,null]</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,null,false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":1439606810000,"now":1490875367000,"abtest_mask":"---------0--------------------","user_attr":[1,0,0,"-","-"],"user_hash":"cf26f15e9707c1dcc8477d82d978c042"}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.98ac6609.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.ca78ba78.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.66b486a6.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.7f16d61c.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.c7dfa699.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.350a56de.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.76ecf933.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.a4dd3236.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.ab646d8f.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.97f134aa.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.7556991d.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.4cfce18f.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.6b2d25b7.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.c68a1600.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.c0accdb8.js"></script>
+<meta name="entry" content="ZH.entryHome" data-module-id="page-main">
+
+<script type="text/zscript" znonce="af8a77ffaa804e629da845a3dda10403"></script>
+
+<input type="hidden" name="_xsrf" value="372d813b66ce7355c16e3b48201d1cdd"/>
+</body>
+</html>
+[]
